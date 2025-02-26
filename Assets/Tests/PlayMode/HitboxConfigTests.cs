@@ -19,6 +19,9 @@ public class HitboxConfigTests
     public IEnumerator SetUp()
     {
         SceneManager.LoadScene(TestSettings.SceneIndex);
+        string logFileName = TestSettings.TestLogFileName;
+        string message = divider + $"Scene: {SceneManager.GetSceneByBuildIndex(TestSettings.SceneIndex).name}";
+        TestLogger.Log(message, logFileName);
         yield return null;
     }
 
@@ -26,7 +29,7 @@ public class HitboxConfigTests
     public IEnumerator TestPlayerHasCapsuleCollider()
     {
         string logFileName = TestSettings.TestLogFileName;
-        string message = divider + nameof(TestPlayerHasCapsuleCollider);
+        string message = nameof(TestPlayerHasCapsuleCollider);
         TestLogger.Log(message, logFileName);
 
         GameObject player = GameObject.Find(PLAYER_NAME);
@@ -51,7 +54,7 @@ public class HitboxConfigTests
     public IEnumerator TestPlayerHasPlayerScript()
     {
         string logFileName = TestSettings.TestLogFileName;
-        string message = divider + nameof(TestPlayerHasPlayerScript);
+        string message = nameof(TestPlayerHasPlayerScript);
         TestLogger.Log(message, logFileName);
 
         GameObject player = GameObject.Find(PLAYER_NAME);
@@ -77,7 +80,7 @@ public class HitboxConfigTests
     public IEnumerator TestPlayerHitboxParametersWhenIdle()
     {
         string logFileName = TestSettings.TestLogFileName;
-        string message = divider + nameof(TestPlayerHitboxParametersWhenIdle);
+        string message = nameof(TestPlayerHitboxParametersWhenIdle);
         TestLogger.Log(message, logFileName);
 
         GameObject player = GameObject.Find(PLAYER_NAME);
@@ -115,7 +118,7 @@ public class HitboxConfigTests
     public IEnumerator TestPlayerHitboxParameterWhenMoving()
     {
         string logFileName = TestSettings.TestLogFileName;
-        string message = divider + nameof(TestPlayerHitboxParameterWhenMoving);
+        string message = nameof(TestPlayerHitboxParameterWhenMoving);
         TestLogger.Log(message, logFileName);
 
         GameObject player = GameObject.Find(PLAYER_NAME);
@@ -155,7 +158,7 @@ public class HitboxConfigTests
     public IEnumerator TestFinishPointHasBoxCollider()
     {
         string logFileName = TestSettings.TestLogFileName;
-        string message = divider + nameof(TestFinishPointHasBoxCollider);
+        string message = nameof(TestFinishPointHasBoxCollider);
         TestLogger.Log(message, logFileName);
 
         GameObject finishPoint = GameObject.Find(FINISH_POINT_NAME);
@@ -180,7 +183,7 @@ public class HitboxConfigTests
     public IEnumerator TestFinishPointHasWinScript()
     {
         string logFileName = TestSettings.TestLogFileName;
-        string message = divider + nameof(TestFinishPointHasWinScript);
+        string message = nameof(TestFinishPointHasWinScript);
         TestLogger.Log(message, logFileName);
 
         GameObject finishPoint = GameObject.Find(FINISH_POINT_NAME);
@@ -205,7 +208,7 @@ public class HitboxConfigTests
     public IEnumerator TestFinishPointHitboxParameters()
     {
         string logFileName = TestSettings.TestLogFileName;
-        string message = divider + nameof(TestFinishPointHitboxParameters);
+        string message = nameof(TestFinishPointHitboxParameters);
         TestLogger.Log(message, logFileName);
 
         GameObject finishPoint = GameObject.Find(FINISH_POINT_NAME);
@@ -243,7 +246,7 @@ public class HitboxConfigTests
     public IEnumerator TestTrapsHasAppropriateCollider()
     {
         string logFileName = TestSettings.TestLogFileName;
-        string message = divider + nameof(TestTrapsHasAppropriateCollider);
+        string message = nameof(TestTrapsHasAppropriateCollider);
         TestLogger.Log(message, logFileName);
         List<string> issues = new();
 
@@ -281,7 +284,7 @@ public class HitboxConfigTests
     public IEnumerator TestTrapsHasTrapTag()
     {
         string logFileName = TestSettings.TestLogFileName;
-        string message = divider + nameof(TestTrapsHasTrapTag);
+        string message = nameof(TestTrapsHasTrapTag);
         TestLogger.Log(message, logFileName);
         List<string> issues = new();
 
@@ -297,6 +300,61 @@ public class HitboxConfigTests
                 continue;
             if (!trap.CompareTag("Trap"))
                 issues.Add($"{trap.name} không có Tag 'Trap'");
+        }
+        if (issues.Count > 0)
+        {
+            string errorMessage = string.Join("\n", issues);
+            TestLogger.Log(errorMessage, logFileName);
+            Assert.Fail(errorMessage);
+        }
+        else
+        {
+            string successMessage = $"{nameof(TestTrapsHasTrapTag)} passed.";
+            TestLogger.Log(successMessage, logFileName);
+            Assert.Pass(successMessage);
+        }
+
+        yield return null;
+    }
+
+    [UnityTest]
+    public IEnumerator TestTrapsHitboxParameters()
+    {
+        string logFileName = TestSettings.TestLogFileName;
+        string message = nameof(TestTrapsHasTrapTag);
+        TestLogger.Log(message, logFileName);
+        List<string> issues = new();
+
+        GameObject trapsParent = GameObject.Find(TRAP_PARENT_NAME);
+        Assert.IsNotNull(trapsParent, "Không tìm thấy trapsParent trong scene.");
+
+        foreach (Transform child in trapsParent.transform)
+        {
+            GameObject trap = child.gameObject;
+            TrapType trapType = GetTrapType(trap.name);
+            if (trapType == TrapType.Unknown) 
+                continue;
+            trap = trapType == TrapType.SpikedBall ? GetSpikedBallTrapObject(trap) : trap;
+
+            var spriteRenderer = trap.GetComponent<SpriteRenderer>();
+            var sprite = spriteRenderer.sprite;
+            Vector2 spriteSize = sprite.bounds.size;
+
+            var collider = trap.GetComponent<Collider2D>();
+
+            Vector2 colliderSize = GetSize(collider);
+            Vector2 offset = GetOffset(collider);
+
+            List<string> trapIssues = new();
+
+            HitBoxConfig hitboxConfig = HitBoxConfigManager.GetHitBoxConfig(GetTrapHitboxType(trapType));
+            
+            CheckHitboxParameters(spriteSize, hitboxConfig, trapIssues, colliderSize, offset);
+            if (trapIssues.Count > 0)
+            {
+                issues.Add($"---{trap.name}: ");
+                issues.AddRange(trapIssues);
+            }
         }
         if (issues.Count > 0)
         {
@@ -429,8 +487,36 @@ public class HitboxConfigTests
             TrapType.On => HitBoxType.OnTrap,
             TrapType.Idle => HitBoxType.IdleTrap,
             TrapType.Blink => HitBoxType.BlinkTrap,
+            TrapType.SpikedBall => HitBoxType.SpikedBallTrap,
+            TrapType.NoDamage => HitBoxType.NoDamageTrap,
             _ => throw new ArgumentException("Unknown trap name"),
         };
+    }
+
+    public Vector2 GetSize(Collider2D collider)
+    {
+        switch (collider)
+        {
+            case BoxCollider2D boxCollider:
+                return boxCollider.size;
+            case CapsuleCollider2D capsuleCollider:
+                return capsuleCollider.size;
+            default:
+                return Vector2.zero;
+        }
+    }
+
+    public Vector2 GetOffset(Collider2D collider)
+    {
+        switch (collider)
+        {
+            case BoxCollider2D boxCollider:
+                return boxCollider.offset;
+            case CapsuleCollider2D capsuleCollider:
+                return capsuleCollider.offset;
+            default:
+                return Vector2.zero;
+        }
     }
 
 

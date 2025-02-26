@@ -1,0 +1,137 @@
+-------------------------------------------
+-------------------------------------------
+Game2
+TestTrapsHasTrapTag
+---On (38x38)_0: 
+Không có Collider2D phù hợp.
+---On (38x38)_0: 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (3): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (3): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (4): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (4): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (5): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (5): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (1): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (1): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (2): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (2): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (6): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (6): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---Spiked Ball: 
+Không có Collider2D phù hợp.
+---Spiked Ball: 
+Size X của HitBox không hợp lệ. Expected: 0.25 +/- 0.0112, Actual: 0.1854367
+Offset Y của HitBox không hợp lệ. Expected: -0.00494933 +/- 0.0112, Actual: 0.01576048
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestTrapsHasTrapTag
+---On (38x38)_0: 
+Không có Collider2D phù hợp.
+---On (38x38)_0: 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (3): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (3): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (4): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (4): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (5): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (5): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (1): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (1): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (2): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (2): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (6): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (6): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---Spiked Ball: 
+Không có Collider2D phù hợp.
+---Spiked Ball: 
+Size X của HitBox không hợp lệ. Expected: 0.25 +/- 0.0112, Actual: 0.1854367
+Offset Y của HitBox không hợp lệ. Expected: -0.00494933 +/- 0.0112, Actual: 0.01576048
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestTrapsHasTrapTag
+---On (38x38)_0: 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (3): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (4): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (5): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (1): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (2): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (6): 
+Không có Collider2D phù hợp.
+---Spiked Ball: 
+Không có Collider2D phù hợp.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestTrapsHasTrapTag
+---Spiked Ball: 
+Không có Collider2D phù hợp.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestTrapsHasTrapTag
+---On (38x38)_0: 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (2): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (3): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (4): 
+Không có Collider2D phù hợp.
+---On (38x38)_0 (1): 
+Không có Collider2D phù hợp.
+---Spiked Ball: 
+Không có Collider2D phù hợp.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestTrapsHasTrapTag
+---Spiked Ball: 
+Size X của HitBox không hợp lệ. Expected: 0.25 +/- 0.0112, Actual: 0.1854367
+Offset Y của HitBox không hợp lệ. Expected: -0.00494933 +/- 0.0112, Actual: 0.01576048

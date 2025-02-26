@@ -22,11 +22,11 @@ public class TrapIntegrationTests
         SceneManager.LoadScene(TestSettings.SceneIndex);
         yield return null;
 
-        var player = GameObject.Find("fp");
+        var player = GameObject.Find("NoDamage");
         var spriteRenderer = player.GetComponent<SpriteRenderer>();
         var sprite = spriteRenderer.sprite;
         Vector2 spriteSize = sprite.bounds.size;
-        var collider = player.GetComponent<BoxCollider2D>();
+        var collider = player.GetComponent<CapsuleCollider2D>();
         Vector2 colliderSize = collider.size;
 
         // Tính toán tỉ lệ kích thước

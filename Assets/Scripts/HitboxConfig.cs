@@ -7,6 +7,8 @@ public enum HitBoxType
     OnTrap,
     IdleTrap,
     BlinkTrap,
+    SpikedBallTrap,
+    NoDamageTrap,
     FinishPoint
 }
 
@@ -34,11 +36,15 @@ public static class HitBoxConfigManager
             case HitBoxType.PlayerRun:
                 return new HitBoxConfig(0.625f, 0.7828325f, 0f, -0.05181431f);
             case HitBoxType.OnTrap:
-                return new HitBoxConfig(0.8421053f, 0.8421053f, 0f, 0f);
+                return new HitBoxConfig(1f, 1f, 0f, 0f);
             case HitBoxType.IdleTrap:
-                return new HitBoxConfig(0.8768559f, 0.4066713f, -0.03114343f, -0.2966643f);
+                return new HitBoxConfig(0.8110747f, 0.3671584f, -0.03154576f, -0.3164208f);
             case HitBoxType.BlinkTrap:
-                return new HitBoxConfig(0.725241f, 0.7504812f, 0.008003799f, -0.01076666f);
+                return new HitBoxConfig(0.7120274f, 0.7460278f, 0.01171511f, -0.01415593f);
+            case HitBoxType.SpikedBallTrap:
+                return new HitBoxConfig(0.8928571f, 0.875f, 0.01632401f, -0.01767618f);
+            case HitBoxType.NoDamageTrap:
+                return new HitBoxConfig(0.7071428f, 0.7071428f, 0f, 0f);
             case HitBoxType.FinishPoint:
                 return new HitBoxConfig(0.6899635f, 0.5842748f, 0f, -0.2078626f);
             default:
