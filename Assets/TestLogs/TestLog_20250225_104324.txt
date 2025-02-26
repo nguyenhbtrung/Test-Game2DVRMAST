@@ -134,3 +134,19 @@ Spiked Ball không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actua
 -------------------------------------------
 TestTrapsHasAppropriateCollider
 TestTrapsHasAppropriateCollider passed.
+-------------------------------------------
+-------------------------------------------
+TestTrapsHasTrapTag
+TestTrapsHasTrapTag passed.
+-------------------------------------------
+-------------------------------------------
+TestTrapsHasTrapTag
+TestTrapsHasTrapTag passed.
+-------------------------------------------
+-------------------------------------------
+TestTrapsHasTrapTag
+Spiked Ball không có Tag 'Trap'
+-------------------------------------------
+-------------------------------------------
+TestTrapsHasTrapTag
+TestTrapsHasTrapTag passed.

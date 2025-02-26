@@ -250,8 +250,6 @@ public class HitboxConfigTests
         GameObject trapsParent = GameObject.Find(TRAP_PARENT_NAME);
         Assert.IsNotNull(trapsParent, "Không tìm thấy trapsParent trong scene.");
 
-        GameObject finishPoint = GameObject.Find(FINISH_POINT_NAME);
-        Assert.IsNotNull(finishPoint, "Không tìm thấy FinishPoint trong scene.");
         foreach (Transform child in trapsParent.transform)
         {
             GameObject trap = child.gameObject;
@@ -272,6 +270,43 @@ public class HitboxConfigTests
         else
         {
             string successMessage = $"{nameof(TestTrapsHasAppropriateCollider)} passed.";
+            TestLogger.Log(successMessage, logFileName);
+            Assert.Pass(successMessage);
+        }
+
+        yield return null;
+    }
+
+    [UnityTest]
+    public IEnumerator TestTrapsHasTrapTag()
+    {
+        string logFileName = TestSettings.TestLogFileName;
+        string message = divider + nameof(TestTrapsHasTrapTag);
+        TestLogger.Log(message, logFileName);
+        List<string> issues = new();
+
+        GameObject trapsParent = GameObject.Find(TRAP_PARENT_NAME);
+        Assert.IsNotNull(trapsParent, "Không tìm thấy trapsParent trong scene.");
+
+        foreach (Transform child in trapsParent.transform)
+        {
+            GameObject trap = child.gameObject;
+            TrapType trapType = GetTrapType(trap.name);
+            trap = trapType == TrapType.SpikedBall ? GetSpikedBallTrapObject(trap) : trap;
+            if (trapType == TrapType.NoDamage || trapType == TrapType.Unknown)
+                continue;
+            if (!trap.CompareTag("Trap"))
+                issues.Add($"{trap.name} không có Tag 'Trap'");
+        }
+        if (issues.Count > 0)
+        {
+            string errorMessage = string.Join("\n", issues);
+            TestLogger.Log(errorMessage, logFileName);
+            Assert.Fail(errorMessage);
+        }
+        else
+        {
+            string successMessage = $"{nameof(TestTrapsHasTrapTag)} passed.";
             TestLogger.Log(successMessage, logFileName);
             Assert.Pass(successMessage);
         }
