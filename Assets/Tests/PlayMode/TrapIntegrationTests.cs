@@ -26,7 +26,7 @@ public class TrapIntegrationTests
         var spriteRenderer = player.GetComponent<SpriteRenderer>();
         var sprite = spriteRenderer.sprite;
         Vector2 spriteSize = sprite.bounds.size;
-        var collider = player.GetComponent<CapsuleCollider2D>();
+        var collider = player.GetComponent<BoxCollider2D>();
         Vector2 colliderSize = collider.size;
 
         // Tính toán tỉ lệ kích thước

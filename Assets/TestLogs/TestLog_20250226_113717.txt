@@ -135,3 +135,106 @@ TestTrapsHasTrapTag
 ---Spiked Ball: 
 Size X của HitBox không hợp lệ. Expected: 0.25 +/- 0.0112, Actual: 0.1854367
 Offset Y của HitBox không hợp lệ. Expected: -0.00494933 +/- 0.0112, Actual: 0.01576048
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestMovingPlatformHasBoxCollider
+TestMovingPlatformHasBoxCollider passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestMovingPlatformHasBoxCollider
+TestMovingPlatformHasBoxCollider passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestMovingPlatHasGroundTag
+On (32x10)_0 không có Tag 'Ground'.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestMovingPlatHitboxParameters
+---On (32x10)_0: 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestMovingPlatformHasBoxCollider
+TestMovingPlatformHasBoxCollider passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestMovingPlatHasGroundTag
+TestMovingPlatHasGroundTag passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestMovingPlatHitboxParameters
+TestMovingPlatHitboxParameters passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestMovingPlatformHasBoxCollider
+TestMovingPlatformHasBoxCollider passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestMovingPlatHasGroundTag
+On (32x10)_0 không có Tag 'Ground'.
+On (32x10)_0 (1) không có Tag 'Ground'.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestMovingPlatHitboxParameters
+---On (32x10)_0: 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+---On (32x10)_0 (1): 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestMovingPlatformHasBoxCollider
+TestMovingPlatformHasBoxCollider passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestMovingPlatHasGroundTag
+TestMovingPlatHasGroundTag passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestMovingPlatHitboxParameters
+---On (32x10)_0: 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+---On (32x10)_0 (2): 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+---On (32x10)_0 (3): 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+---On (32x10)_0 (6): 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+---On (32x10)_0 (4): 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+---On (32x10)_0 (5): 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+---On (32x10)_0 (1): 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025

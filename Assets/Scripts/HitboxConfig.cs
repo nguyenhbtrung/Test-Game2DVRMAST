@@ -9,7 +9,8 @@ public enum HitBoxType
     BlinkTrap,
     SpikedBallTrap,
     NoDamageTrap,
-    FinishPoint
+    FinishPoint,
+    MovingPlatform,
 }
 
 public struct HitBoxConfig
@@ -47,6 +48,8 @@ public static class HitBoxConfigManager
                 return new HitBoxConfig(0.7071428f, 0.7071428f, 0f, 0f);
             case HitBoxType.FinishPoint:
                 return new HitBoxConfig(0.6899635f, 0.5842748f, 0f, -0.2078626f);
+            case HitBoxType.MovingPlatform:
+                return new HitBoxConfig(1f, 1f, 0f, 0f);
             default:
                 throw new System.ArgumentException($"Invalid HitBoxType: {hitBoxType}");
         }

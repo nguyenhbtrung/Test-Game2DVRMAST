@@ -5,6 +5,7 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
+using UnityEngine.UIElements;
 
 public class HitboxConfigTests
 {
@@ -14,6 +15,8 @@ public class HitboxConfigTests
     private const string PLAYER_NAME = "Player";
     private const string FINISH_POINT_NAME = "End (Pressed) (64x64)_0";
     private const string TRAP_PARENT_NAME = "Trap";
+    private const string MOVING_PLATFORM_PARENT_NAME = "SupMove";
+    private const string MOVING_PLATFORM_NAME = "On (32x10)_0";
 
     [UnitySetUp]
     public IEnumerator SetUp()
@@ -365,6 +368,142 @@ public class HitboxConfigTests
         else
         {
             string successMessage = $"{nameof(TestTrapsHasTrapTag)} passed.";
+            TestLogger.Log(successMessage, logFileName);
+            Assert.Pass(successMessage);
+        }
+
+        yield return null;
+    }
+
+    [UnityTest]
+    public IEnumerator TestMovingPlatformHasBoxCollider()
+    {
+        string logFileName = TestSettings.TestLogFileName;
+        string message = nameof(TestMovingPlatformHasBoxCollider);
+        TestLogger.Log(message, logFileName);
+
+        GameObject parent = GameObject.Find(MOVING_PLATFORM_PARENT_NAME);
+        Assert.IsNotNull(parent, "Không tìm thấy MovingPlatformsParent trong scene.");
+
+        List<string> issues = new();
+
+        foreach (Transform child in  parent.transform)
+        {
+            if (!child.gameObject.name.StartsWith(MOVING_PLATFORM_NAME))
+            {
+                continue;
+            }
+            if (!child.TryGetComponent<BoxCollider2D>(out var collider))
+            {
+                string issue = $"{child.name} không có BoxCollider2D.";
+                issues.Add(issue);
+            }
+        }
+
+        if (issues.Count > 0)
+        {
+            string errorMessage = string.Join("\n", issues);
+            TestLogger.Log(errorMessage, logFileName);
+            Assert.Fail(errorMessage);
+        }
+        else
+        {
+            string successMessage = $"{nameof(TestMovingPlatformHasBoxCollider)} passed.";
+            TestLogger.Log(successMessage, logFileName);
+            Assert.Pass(successMessage);
+        }
+
+        yield return null;
+    }
+
+    [UnityTest]
+    public IEnumerator TestMovingPlatHasGroundTag()
+    {
+        string logFileName = TestSettings.TestLogFileName;
+        string message = nameof(TestMovingPlatHasGroundTag);
+        TestLogger.Log(message, logFileName);
+
+        GameObject parent = GameObject.Find(MOVING_PLATFORM_PARENT_NAME);
+        Assert.IsNotNull(parent, "Không tìm thấy MovingPlatformsParent trong scene.");
+
+        List<string> issues = new();
+
+        foreach (Transform child in parent.transform)
+        {
+            if (!child.gameObject.name.StartsWith(MOVING_PLATFORM_NAME))
+            {
+                continue;
+            }
+            if (!child.CompareTag("Ground"))
+            {
+                string issue = $"{child.name} không có Tag 'Ground'.";
+                issues.Add(issue);
+            }
+        }
+
+        if (issues.Count > 0)
+        {
+            string errorMessage = string.Join("\n", issues);
+            TestLogger.Log(errorMessage, logFileName);
+            Assert.Fail(errorMessage);
+        }
+        else
+        {
+            string successMessage = $"{nameof(TestMovingPlatHasGroundTag)} passed.";
+            TestLogger.Log(successMessage, logFileName);
+            Assert.Pass(successMessage);
+        }
+
+        yield return null;
+    }
+
+    [UnityTest]
+    public IEnumerator TestMovingPlatHitboxParameters()
+    {
+        string logFileName = TestSettings.TestLogFileName;
+        string message = nameof(TestMovingPlatHitboxParameters);
+        TestLogger.Log(message, logFileName);
+
+        GameObject parent = GameObject.Find(MOVING_PLATFORM_PARENT_NAME);
+        Assert.IsNotNull(parent, "Không tìm thấy MovingPlatformsParent trong scene.");
+
+        List<string> issues = new();
+
+        foreach (Transform child in parent.transform)
+        {
+            if (!child.gameObject.name.StartsWith(MOVING_PLATFORM_NAME))
+            {
+                continue;
+            }
+            var spriteRenderer = child.GetComponent<SpriteRenderer>();
+            var sprite = spriteRenderer.sprite;
+            Vector2 spriteSize = sprite.bounds.size;
+
+            var collider = child.GetComponent<BoxCollider2D>();
+            HitBoxConfig hitBoxConfig = HitBoxConfigManager.GetHitBoxConfig(HitBoxType.MovingPlatform);
+
+            List<string> childIssues = new();
+
+            Vector2 colliderSize = collider.size;
+            Vector2 offset = collider.offset;
+            CheckHitboxParameters(spriteSize, hitBoxConfig, childIssues, colliderSize, offset);
+
+            if (childIssues.Count > 0)
+            {
+                issues.Add($"---{child.name}: ");
+                issues.AddRange(childIssues);
+            }
+        }
+
+        if (issues.Count > 0)
+        {
+            string errorMessage = string.Join("\n", issues);
+            TestLogger.Log(errorMessage, logFileName);
+            Assert.Fail(errorMessage);
+        }
+        else
+        {
+            string successMessage = $"{nameof(TestMovingPlatHitboxParameters)} passed.";
             TestLogger.Log(successMessage, logFileName);
             Assert.Pass(successMessage);
         }
