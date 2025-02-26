@@ -1,0 +1,136 @@
+TestPlayerHasCapsuleCollider passed.
+-------------------------------------------
+-------------------------------------------
+TestPlayerHasCapsuleCollider
+TestPlayerHasCapsuleCollider passed.
+-------------------------------------------
+-------------------------------------------
+TestPlayerHasPlayerScript
+TestPlayerHasPlayerScript passed.
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParametersAreValid
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParametersAreValid
+Kích thước chiều rộng của HitBox không hợp lệ. Expected ratio: 0.4143931, Actual ratio: 0.625
+Kích thước chiều cao của HitBox không hợp lệ. Expected ratio: 0.6877522, Actual ratio: 0.8437501
+Offset Y của HitBox không hợp lệ. Expected ratio: -0.1218726, Actual ratio: 0
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParametersWhenIdle
+Kích thước chiều rộng của HitBox không hợp lệ. Expected ratio: 0.4143931, Actual ratio: 0.625
+Kích thước chiều cao của HitBox không hợp lệ. Expected ratio: 0.6877522, Actual ratio: 0.7828325
+Offset Y của HitBox không hợp lệ. Expected ratio: -0.1218726, Actual ratio: -0.05181431
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParameterWhenMoving
+TestPlayerHitboxParameterWhenMoving passed.
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParametersWhenIdle
+Kích thước chiều rộng của HitBox không hợp lệ. Expected ratio: 0.4143931, Actual ratio: 0.625
+Kích thước chiều cao của HitBox không hợp lệ. Expected ratio: 0.6877522, Actual ratio: 0.7711431
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParameterWhenMoving
+TestPlayerHitboxParameterWhenMoving passed.
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParametersWhenIdle
+Kích thước chiều rộng của HitBox không hợp lệ. Expected ratio: 0.4143931, Actual ratio: 0.625
+Kích thước chiều cao của HitBox không hợp lệ. Expected ratio: 0.6877522, Actual ratio: 0.7828325
+Offset Y của HitBox không hợp lệ. Expected ratio: -0.1218726, Actual ratio: -0.05181431
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParameterWhenMoving
+TestPlayerHitboxParameterWhenMoving passed.
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParametersWhenIdle
+Kích thước chiều rộng của HitBox không hợp lệ. Expected ratio: 0.4143931, Actual ratio: 0.625
+Kích thước chiều cao của HitBox không hợp lệ. Expected ratio: 0.6877522, Actual ratio: 0.7711431
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParameterWhenMoving
+TestPlayerHitboxParameterWhenMoving passed.
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParametersWhenIdle
+TestPlayerHitboxParametersWhenIdle passed.
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParameterWhenMoving
+TestPlayerHitboxParameterWhenMoving passed.
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParametersWhenIdle
+TestPlayerHitboxParametersWhenIdle passed.
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParameterWhenMoving
+TestPlayerHitboxParameterWhenMoving passed.
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParametersWhenIdle
+Kích thước chiều cao của HitBox không hợp lệ. Expected ratio: 0.7711431, Actual ratio: 0.8437501
+Offset Y của HitBox không hợp lệ. Expected ratio: -0.0916231, Actual ratio: 0
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParameterWhenMoving
+Kích thước chiều cao của HitBox không hợp lệ. Expected ratio: 0.7828325, Actual ratio: 0.8437501
+Offset Y của HitBox không hợp lệ. Expected ratio: -0.05181431, Actual ratio: 0
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParametersWhenIdle
+Size Y của HitBox không hợp lệ. Expected: 0.2467658 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.02931939 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+TestPlayerHitboxParameterWhenMoving
+Size Y của HitBox không hợp lệ. Expected: 0.2505064 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.01658058 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+TestFinishPointHasBoxCollider
+TestFinishPointHasBoxCollider passed.
+-------------------------------------------
+-------------------------------------------
+TestFinishPointHasWinScript
+TestFinishPointHasWinScript passed.
+-------------------------------------------
+-------------------------------------------
+TestFinishPointHitboxParameters
+Size X của HitBox không hợp lệ. Expected: 0.3158331 +/- 0.0256, Actual: 0.4415767
+-------------------------------------------
+-------------------------------------------
+TestFinishPointHitboxParameters
+TestFinishPointHitboxParameters passed.
+-------------------------------------------
+-------------------------------------------
+TestTrapsHasAppropriateCollider
+Spiked Ball không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+-------------------------------------------
+-------------------------------------------
+TestTrapsHasAppropriateCollider
+On (38x38)_0 không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (3) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (4) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (5) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (1) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (2) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (6) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+Spiked Ball không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+-------------------------------------------
+-------------------------------------------
+TestTrapsHasAppropriateCollider
+On (38x38)_0 không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (2) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (3) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (4) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (1) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+Spiked Ball không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+-------------------------------------------
+-------------------------------------------
+TestTrapsHasAppropriateCollider
+TestTrapsHasAppropriateCollider passed.
