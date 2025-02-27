@@ -3,21 +3,11 @@
         {
             "begin": {
                 "position": {
-                    "x": -2.73,
-                    "y": 0.09
-                },
-                "action": "left"
-            }
-        },
-        {
-            "begin": {
-                "position": {
-                    "x": -2.73,
-                    "y": 0.09
+                    "x": 1.29,
+                    "y": 0.21
                 },
                 "action": "left"
             }
         }
-        
     ]
 }

@@ -1,0 +1,67 @@
+{
+    "actionSequences": [
+        {
+            "begin": {
+                "position": {
+                    "x": -3.039,
+                    "y": 0.542
+                },
+                "action": "left"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": -2.589,
+                    "y": 0.158
+                },
+                "action": "left"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": -2.102,
+                    "y": -0.176
+                },
+                "action": "left"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": -0.616,
+                    "y": -0.327
+                },
+                "action": "right"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": -0.135,
+                    "y": -0.024
+                },
+                "action": "right"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 3.056,
+                    "y": 0.475
+                },
+                "action": "right"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 4.822,
+                    "y": -0.325
+                },
+                "action": "right"
+            }
+        }
+    ]
+}

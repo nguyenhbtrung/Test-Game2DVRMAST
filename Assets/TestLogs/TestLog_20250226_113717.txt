@@ -359,3 +359,28 @@ TestPlayerStandOnMovingPlatform passed.
 Scene: Game1
 TestPlayerStandOnMovingPlatform
 Player không đứng được trên platform động On (32x10)_0. 1.115821 (-0.23, -0.02, 2.50) (0.03, 1.06, 2.50)
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+Player tại không đứng được trên platform tại (-0.26, 0.03) 
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+Player tại không đứng được trên platform tại (-0.26, 0.03) 
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.

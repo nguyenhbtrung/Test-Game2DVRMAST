@@ -68,6 +68,9 @@ public class HitboxBehaviorTests
         string file = $"{TestSettings.SceneName}-{nameof(TestPlayerBlockedByWall)}-InputData";
         LoadSimulatorInputData(file);
 
+        HideTraps();
+        HideMovingPlatforms();
+
         GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
         List<string> issues = new();
 
@@ -122,6 +125,9 @@ public class HitboxBehaviorTests
         dichuyen2 playerMovement = player.GetComponent<dichuyen2>();
         string file = $"{TestSettings.SceneName}-{nameof(TestPlayerStandOnStaticPlatform)}-InputData";
         LoadSimulatorInputData(file);
+
+        HideTraps();
+        HideMovingPlatforms();
 
         GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
         List<string> issues = new();
@@ -207,6 +213,24 @@ public class HitboxBehaviorTests
         }
 
         yield return null;
+    }
+
+    private void HideTraps()
+    {
+        GameObject trapParent = GameObject.Find(TestHelper.TRAP_PARENT_NAME);
+        if (trapParent != null)
+        {
+            trapParent.SetActive(false);
+        }
+    }
+
+    private void HideMovingPlatforms()
+    {
+        GameObject movingPlatformParent = GameObject.Find(TestHelper.MOVING_PLATFORM_PARENT_NAME);
+        if (movingPlatformParent != null)
+        {
+            movingPlatformParent.SetActive(true);movingPlatformParent.SetActive(false);
+        }
     }
 
     private void LoadSimulatorInputData(string jsonFileName)
