@@ -1,6 +1,7 @@
 using System.IO;
 using Unity.Plastic.Newtonsoft.Json;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public static class TestSettings
 {
@@ -40,6 +41,11 @@ public static class TestSettings
             settings.SceneIndex = value;
             SaveSettings();
         }
+    }
+
+    public static string SceneName
+    {
+        get => SceneManager.GetSceneByBuildIndex(SceneIndex).name;
     }
 
     public static string TestLogFileName

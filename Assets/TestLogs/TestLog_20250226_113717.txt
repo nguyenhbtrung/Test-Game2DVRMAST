@@ -238,3 +238,124 @@ Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.011350
 Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
 Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
 Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+TestPlayerRunIntoWall
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnStaticPlatform
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnStaticPlatform
+Player tại không đứng được trên platform tại (-1.94, 0.51)
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnStaticPlatform
+Player tại không đứng được trên platform tại (-1.94, 0.51)
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnStaticPlatform
+Player tại không đứng được trên platform tại (-1.94, 0.51)
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnStaticPlatform
+Player tại không đứng được trên platform tại (-1.94, 0.51)
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnStaticPlatform
+Player tại không đứng được trên platform tại (-1.94, 0.51) 1.34113E-09
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnMovingPlatform
+Player không đứng được trên platform động On (32x10)_0.
+Player không đứng được trên platform động On (32x10)_0 (2).
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnMovingPlatform
+Player không đứng được trên platform động On (32x10)_0.
+Player không đứng được trên platform động On (32x10)_0 (2).
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnMovingPlatform
+Player không đứng được trên platform động On (32x10)_0.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnMovingPlatform
+Player không đứng được trên platform động On (32x10)_0. 1.767743
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnMovingPlatform
+Player không đứng được trên platform động On (32x10)_0. 1.768207
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnMovingPlatform
+Player không đứng được trên platform động On (32x10)_0. 1.764047 (-2.48, 1.36, 1.82) (-2.55, 1.13, 0.07)
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnMovingPlatform
+TestPlayerStandOnMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandOnMovingPlatform
+TestPlayerStandOnMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerStandOnMovingPlatform
+TestPlayerStandOnMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerStandOnMovingPlatform
+TestPlayerStandOnMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnMovingPlatform
+Player không đứng được trên platform động On (32x10)_0. 1.115821 (-0.23, -0.02, 2.50) (0.03, 1.06, 2.50)
