@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
+using static HitboxConfigTests;
 using static UnityEngine.UI.Dropdown;
 
 public class HitboxBehaviorTests
@@ -142,7 +144,7 @@ public class HitboxBehaviorTests
             
             if (player.GetComponent<Rigidbody2D>().velocity.magnitude > 0.01)
             {
-                string issue = $"Player tại không đứng được trên platform tại {sequence.begin.position} ";
+                string issue = $"Player không đứng được trên platform tại {sequence.begin.position} ";
                 issues.Add(issue);
             }
 
@@ -215,6 +217,338 @@ public class HitboxBehaviorTests
         yield return null;
     }
 
+    [UnityTest]
+    public IEnumerator TestPlayerStandUnderVerticalMovingPlatform()
+    {
+        string logFileName = TestSettings.TestLogFileName;
+        string message = nameof(TestPlayerStandUnderVerticalMovingPlatform);
+        TestLogger.Log(message, logFileName);
+
+        GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+        dichuyen2 playerMovement = player.GetComponent<dichuyen2>();
+        string file = $"{TestSettings.SceneName}-{nameof(TestPlayerStandUnderVerticalMovingPlatform)}-InputData";
+        LoadSimulatorInputData(file);
+
+        HideTraps();
+
+        GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+        List<string> issues = new();
+
+        foreach (var sequence in sequences)
+        {
+            player.transform.position = sequence.begin.position;
+            cam.transform.position = player.transform.position + Vector3.back * 10;
+            ProcessPlayerAction(playerMovement, sequence.begin);
+
+            Transform movingPlatform = GetMovingPlatformAbove(sequence.begin.position, maxDistance: 5f);
+
+            if (movingPlatform != null)
+            {
+                float initialPlatformY = movingPlatform.position.y;
+
+                bool hasMovedDown = false;
+                bool hasMovedUpAgain = false;
+
+                float movementThreshold = 0.1f;
+
+                while (!hasMovedDown || !hasMovedUpAgain)
+                {
+                    float currentPlatformY = movingPlatform.position.y;
+
+                    if (!hasMovedDown && currentPlatformY < initialPlatformY - movementThreshold)
+                    {
+                        hasMovedDown = true;
+                    }
+
+                    if (hasMovedDown && currentPlatformY >= initialPlatformY - movementThreshold)
+                    {
+                        hasMovedUpAgain = true;
+                    }
+
+                    yield return null;
+                }
+            }
+            yield return new WaitForSeconds(0.5f);
+
+            if (player.transform.position.y - sequence.begin.position.y > 0.2f)
+            {
+                string issue = $"Player bị đẩy lên platform động tại {sequence.begin.position}";
+                issues.Add(issue);
+            }
+        }
+        if (issues.Count > 0)
+        {
+            string errorMessage = string.Join("\n", issues);
+            TestLogger.Log(errorMessage, logFileName);
+            Assert.Fail(errorMessage);
+        }
+        else
+        {
+            string successMessage = $"{nameof(TestPlayerStandUnderVerticalMovingPlatform)} passed.";
+            TestLogger.Log(successMessage, logFileName);
+            Assert.Pass(successMessage);
+        }
+
+        yield return null;
+    }
+
+    [UnityTest]
+    public IEnumerator TestIsGroundedStatusBeforeAndAfterJump()
+    {
+        string logFileName = TestSettings.TestLogFileName;
+        string message = nameof(TestIsGroundedStatusBeforeAndAfterJump);
+        TestLogger.Log(message, logFileName);
+
+        GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+        dichuyen2 playerMovement = player.GetComponent<dichuyen2>();
+       
+        HideTraps();
+        HideMovingPlatforms();
+
+        //GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+        List<string> issues = new();
+
+        player.transform.Translate(0.4f, 0, 0);
+        yield return new WaitForSeconds(0.5f);
+
+        FieldInfo isGroundedField = typeof(dichuyen2)
+            .GetField("isGrounded", BindingFlags.NonPublic | BindingFlags.Instance);
+        Assert.IsNotNull(isGroundedField, "Không tìm thấy trường isGrounded trong PlayerController!");
+
+        bool groundedBefore = (bool)isGroundedField.GetValue(playerMovement);
+        if (!groundedBefore)
+        {
+            issues.Add("IsGrounded = false khi đứng trên mặt đất trước khi nhảy");
+        }
+
+        playerMovement.JumpButton();
+        yield return null;
+
+        bool groundedAfter = (bool)isGroundedField.GetValue(playerMovement);
+        if (groundedAfter)
+        {
+            issues.Add("IsGrounded = true sau khi nhảy");
+        }
+
+        yield return new WaitForSeconds(1f);
+        bool groundedWhenGrounding = (bool)isGroundedField.GetValue(playerMovement);
+        if (!groundedWhenGrounding)
+        {
+            issues.Add("IsGrounded = false khi tiếp đất");
+        }
+
+
+        if (issues.Count > 0)
+        {
+            string errorMessage = string.Join("\n", issues);
+            TestLogger.Log(errorMessage, logFileName);
+            Assert.Fail(errorMessage);
+        }
+        else
+        {
+            string successMessage = $"{nameof(TestIsGroundedStatusBeforeAndAfterJump)} passed.";
+            TestLogger.Log(successMessage, logFileName);
+            Assert.Pass(successMessage);
+        }
+
+        yield return null;
+    }
+
+    [UnityTest]
+    public IEnumerator TestPlayerCollisionWithTrapReceiveDamage()
+    {
+        string logFileName = TestSettings.TestLogFileName;
+        string message = nameof(TestPlayerCollisionWithTrapReceiveDamage);
+        TestLogger.Log(message, logFileName);
+        List<string> issues = new();
+
+        GameObject trapsParent = GameObject.Find(TestHelper.TRAP_PARENT_NAME);
+        Assert.IsNotNull(trapsParent, "Không tìm thấy trapsParent trong scene.");
+
+        List<string> trapNames = new();
+        foreach (Transform child in trapsParent.transform)
+        {
+            GameObject trap = child.gameObject;
+            TrapType trapType = TestHelper.GetTrapType(trap.name);
+            trap = trapType == TrapType.SpikedBall ? TestHelper.GetSpikedBallTrapObject(trap) : trap;
+            if (trapType == TrapType.NoDamage || trapType == TrapType.Unknown)
+                continue;
+            trapNames.Add(trap.name);
+        }
+        foreach (string trapName in trapNames)
+        {
+            SceneManager.LoadScene(TestSettings.SceneIndex);
+            yield return null;
+
+            GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+            GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+            Player playerScript = player.GetComponent<Player>();
+            GameObject trap = GameObject.Find(trapName);
+            if (trap == null)
+                continue;
+
+            int inititalLives = playerScript.lives;
+
+            player.transform.position = trap.transform.position;
+            cam.transform.position = player.transform.position + Vector3.back * 10;
+
+            yield return new WaitForFixedUpdate();
+            int livesAfterCollision = playerScript.lives;
+            int damage = inititalLives - livesAfterCollision;
+            int expectedDamage = 1;
+            if (damage != expectedDamage)
+            {
+                string issue = $"Player va chạm với bẫy {trapName} không nhận đúng thiệt hại. " +
+                    $"\nExpected: Damage = {expectedDamage}. " +
+                    $"\nActual: Damage = {damage}.";
+                issues.Add(issue);
+            }
+        }
+        if (issues.Count > 0)
+        {
+            string errorMessage = string.Join("\n", issues);
+            TestLogger.Log(errorMessage, logFileName);
+            Assert.Fail(errorMessage);
+        }
+        else
+        {
+            string successMessage = $"{nameof(TestPlayerCollisionWithTrapReceiveDamage)} passed.";
+            TestLogger.Log(successMessage, logFileName);
+            Assert.Pass(successMessage);
+        }
+
+        yield return null;
+    }
+
+    [UnityTest]
+    public IEnumerator TestPlayerCollisionWithTrapDeactivated()
+    {
+        string logFileName = TestSettings.TestLogFileName;
+        string message = nameof(TestPlayerCollisionWithTrapDeactivated);
+        TestLogger.Log(message, logFileName);
+        List<string> issues = new();
+
+        GameObject trapsParent = GameObject.Find(TestHelper.TRAP_PARENT_NAME);
+        Assert.IsNotNull(trapsParent, "Không tìm thấy trapsParent trong scene.");
+
+        List<string> trapNames = new();
+        foreach (Transform child in trapsParent.transform)
+        {
+            GameObject trap = child.gameObject;
+            TrapType trapType = TestHelper.GetTrapType(trap.name);
+            trap = trapType == TrapType.SpikedBall ? TestHelper.GetSpikedBallTrapObject(trap) : trap;
+            if (trapType == TrapType.NoDamage || trapType == TrapType.Unknown)
+                continue;
+            trapNames.Add(trap.name);
+        }
+        foreach (string trapName in trapNames)
+        {
+            SceneManager.LoadScene(TestSettings.SceneIndex);
+            yield return null;
+
+            GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+            GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+            Player playerScript = player.GetComponent<Player>();
+            GameObject trap = GameObject.Find(trapName);
+            if (trap == null)
+                continue;
+
+            player.transform.position = trap.transform.position;
+            cam.transform.position = player.transform.position + Vector3.back * 10;
+
+            yield return new WaitForFixedUpdate();
+            if (playerScript.CanMove())
+            {
+                string issue = $"Player va chạm với bẫy {trapName} không bị ngừng hoạt động. ";
+                issues.Add(issue);
+            }
+        }
+        if (issues.Count > 0)
+        {
+            string errorMessage = string.Join("\n", issues);
+            TestLogger.Log(errorMessage, logFileName);
+            Assert.Fail(errorMessage);
+        }
+        else
+        {
+            string successMessage = $"{nameof(TestPlayerCollisionWithTrapDeactivated)} passed.";
+            TestLogger.Log(successMessage, logFileName);
+            Assert.Pass(successMessage);
+        }
+
+        yield return null;
+    }
+
+    [UnityTest]
+    public IEnumerator TestPlayerCollisionWithTrapDeadAnimation()
+    {
+        string logFileName = TestSettings.TestLogFileName;
+        string message = nameof(TestPlayerCollisionWithTrapDeadAnimation);
+        TestLogger.Log(message, logFileName);
+        List<string> issues = new();
+
+        GameObject trapsParent = GameObject.Find(TestHelper.TRAP_PARENT_NAME);
+        Assert.IsNotNull(trapsParent, "Không tìm thấy trapsParent trong scene.");
+
+        List<string> trapNames = new();
+        foreach (Transform child in trapsParent.transform)
+        {
+            GameObject trap = child.gameObject;
+            TrapType trapType = TestHelper.GetTrapType(trap.name);
+            trap = trapType == TrapType.SpikedBall ? TestHelper.GetSpikedBallTrapObject(trap) : trap;
+            if (trapType == TrapType.NoDamage || trapType == TrapType.Unknown)
+                continue;
+            trapNames.Add(trap.name);
+        }
+        foreach (string trapName in trapNames)
+        {
+            SceneManager.LoadScene(TestSettings.SceneIndex);
+            yield return null;
+
+            GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+            GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+            Player playerScript = player.GetComponent<Player>();
+            GameObject trap = GameObject.Find(trapName);
+            if (trap == null)
+                continue;
+
+            player.transform.position = trap.transform.position;
+            cam.transform.position = player.transform.position + Vector3.back * 10;
+
+            yield return new WaitForFixedUpdate();
+            float duration = 0f;
+            bool isDeadAnimation = false;
+            while (duration <= 1)
+            { 
+                if (playerScript.playerSprite.color == playerScript.damagedColor)
+                {
+                    isDeadAnimation = true;
+                    break;
+                }
+                duration += Time.deltaTime;
+            }
+            if (!isDeadAnimation)
+            {
+                string issue = $"Player va chạm với bẫy {trapName} không hiện dead animation. ";
+                issues.Add(issue);
+            }
+        }
+        if (issues.Count > 0)
+        {
+            string errorMessage = string.Join("\n", issues);
+            TestLogger.Log(errorMessage, logFileName);
+            Assert.Fail(errorMessage);
+        }
+        else
+        {
+            string successMessage = $"{nameof(TestPlayerCollisionWithTrapDeadAnimation)} passed.";
+            TestLogger.Log(successMessage, logFileName);
+            Assert.Pass(successMessage);
+        }
+
+        yield return null;
+    }
+
     private void HideTraps()
     {
         GameObject trapParent = GameObject.Find(TestHelper.TRAP_PARENT_NAME);
@@ -232,6 +566,26 @@ public class HitboxBehaviorTests
             movingPlatformParent.SetActive(true);movingPlatformParent.SetActive(false);
         }
     }
+
+    private Transform GetMovingPlatformAbove(Vector3 position, float maxDistance)
+    {
+        Vector2 origin = position;
+        Vector2 direction = Vector2.up;
+
+        RaycastHit2D hit = Physics2D.Raycast(origin, direction, maxDistance);
+
+        if (hit.collider != null)
+        {
+            string hitObjectName = hit.collider.gameObject.name;
+            if (hitObjectName.StartsWith(TestHelper.MOVING_PLATFORM_NAME))
+            {
+                return hit.collider.transform;
+            }
+        }
+        return null;
+    }
+
+
 
     private void LoadSimulatorInputData(string jsonFileName)
     {

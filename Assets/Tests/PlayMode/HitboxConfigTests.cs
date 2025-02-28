@@ -659,14 +659,4 @@ public class HitboxConfigTests
     }
 
 
-    public enum TrapType
-    {
-        On,
-        Idle,
-        Blink,
-        SpikedBall,
-        NoDamage,
-        Unknown
-    }
-
 }

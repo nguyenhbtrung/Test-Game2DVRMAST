@@ -384,3 +384,236 @@ TestPlayerStandOnStaticPlatform passed.
 Scene: Game1
 TestPlayerStandOnStaticPlatform
 TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerStandUnderVerticalMovingPlatform
+TestPlayerStandUnderVerticalMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerStandUnderVerticalMovingPlatform
+TestPlayerStandUnderVerticalMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerStandUnderVerticalMovingPlatform
+TestPlayerStandUnderVerticalMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerStandUnderVerticalMovingPlatform
+TestPlayerStandUnderVerticalMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerStandUnderVerticalMovingPlatform
+TestPlayerStandUnderVerticalMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandUnderVerticalMovingPlatform
+TestPlayerStandUnderVerticalMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandUnderVerticalMovingPlatform
+TestPlayerStandUnderVerticalMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandUnderVerticalMovingPlatform
+Player bị đẩy lên platform động tại (-2.56, 0.61)
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandUnderVerticalMovingPlatform
+Player bị đẩy lên platform động tại (-2.56, 0.61)
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandUnderVerticalMovingPlatform
+Player bị đẩy lên platform động tại (-2.56, 0.61)
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandUnderVerticalMovingPlatform
+Player bị đẩy lên platform động tại (-2.56, 0.61)
+Player bị đẩy lên platform động tại (-2.25, 5.67)
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandUnderVerticalMovingPlatform
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerStandUnderVerticalMovingPlatform
+Player bị đẩy lên platform động tại (-2.56, 0.61)
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusBeforeAndAfterJump
+IsGrounded = true sau khi nhảy
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrap
+Player va chạm với bẫy tại 5 không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+Player va chạm với bẫy tại 5 không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+Player va chạm với bẫy tại 4 không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+Player va chạm với bẫy tại 5 không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+Player va chạm với bẫy tại 5 không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrap
+Player va chạm với bẫy tại 5 không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+Player va chạm với bẫy tại 5 không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrap
+Player va chạm với bẫy tại (-1.82, 1.58) không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+Player va chạm với bẫy tại (7.24, 0.36) không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrap
+Player va chạm với bẫy tại (-1.80, 1.61) không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+Player va chạm với bẫy tại (7.30, 0.36) không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrap
+Player va chạm với bẫy tại (-1.80, 1.61) không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+Player va chạm với bẫy tại (7.30, 0.36) không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrap
+TestPlayerCollisionWithTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrap
+Player va chạm với bẫy Spiked Ball không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionWithTrap
+Player va chạm với bẫy Spiked Ball không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerCollisionWithTrap
+TestPlayerCollisionWithTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerCollisionWithTrapDeactivated
+TestPlayerCollisionWithTrapDeactivated passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapDeactivated
+Player va chạm với bẫy Spiked Ball không nhận đúng bị ngừng hoạt động. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapDeactivated
+Player va chạm với bẫy Spiked Ball không bị ngừng hoạt động. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapDeadAnimation
+Player va chạm với bẫy Spiked Ball không hiện dead animation. 
