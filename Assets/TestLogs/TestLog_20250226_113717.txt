@@ -617,3 +617,2582 @@ TestPlayerBlockedByWall passed.
 Scene: Game2
 TestPlayerCollisionWithTrapDeadAnimation
 Player va chạm với bẫy Spiked Ball không hiện dead animation. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapDeactivated
+Player va chạm với bẫy Spiked Ball không bị ngừng hoạt động. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapDeadAnimation
+Player va chạm với bẫy Spiked Ball không hiện dead animation. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapReceiveDamage
+Player va chạm với bẫy Spiked Ball không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không bị ngừng hoạt động khi còn 4 mạng. 
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không bị ngừng hoạt động khi còn 3 mạng. 
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không bị ngừng hoạt động khi còn 2 mạng. 
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không bị ngừng hoạt động khi còn 1 mạng. 
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không bị ngừng hoạt động khi còn 4 mạng. 
+Player va chạm với bẫy không hiện dead animation khi còn 4 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không bị ngừng hoạt động khi còn 3 mạng. 
+Player va chạm với bẫy không hiện dead animation khi còn 3 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không bị ngừng hoạt động khi còn 2 mạng. 
+Player va chạm với bẫy không hiện dead animation khi còn 2 mạng. 
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không bị ngừng hoạt động khi còn 1 mạng. 
+Player va chạm với bẫy không hiện dead animation khi còn 1 mạng. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 4 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 3 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 2 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy không nhận đúng thiệt hại khi còn 1 mạng. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+TestPlayerCollisionWithTrapUntilRunsOutOfLives passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+TestPlayerCollisionWithTrapUntilRunsOutOfLives passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+TestPlayerCollisionWithTrapUntilRunsOutOfLives passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+TestPlayerCollisionWithTrapUntilRunsOutOfLives passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithTrapDeadAnimation
+Player va chạm với bẫy Spiked Ball không hiện dead animation. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerBlockedByWall
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+TestPlayerCollisionWithNoDamegeTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+Player bị xuyên qua NoDamageTrap tại (-2.50, 0.15) 
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+Player bị xuyên qua NoDamageTrap tại (-2.50, 0.15) 
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+Player bị xuyên qua NoDamageTrap tại (-2.93, 0.61) 
+Player bị xuyên qua NoDamageTrap tại (-2.50, 0.15) 
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithNoDamegeTrap
+TestPlayerCollisionWithNoDamegeTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCollisionWithNoDamegeTrap
+TestPlayerCollisionWithNoDamegeTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionWithNoDamegeTrap
+TestPlayerCollisionWithNoDamegeTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionWithNoDamegeTrap
+TestPlayerCollisionWithNoDamegeTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
