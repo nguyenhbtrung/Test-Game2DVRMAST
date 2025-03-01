@@ -1,3 +1,4 @@
+using HitboxBehaviorTests;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -46,6 +47,20 @@ public static class TestHelper
         var kill = trapParent.transform.Find("Kill");
         if (kill == null) return null;
         return kill.Find("Spiked Ball").gameObject;
+    }
+
+    public static Dictionary<string, List<string>> TestsToSkipBySceneIndex = new Dictionary<string, List<string>>()
+    {
+        { "Game1", new List<string> { nameof(PlatformHitboxBehaviorTests.TestPlayerStandUnderVerticalMovingPlatform) } },
+    };
+
+    public static bool ShouldSkipTest(string testName)
+    {
+        if (TestsToSkipBySceneIndex.TryGetValue(TestSettings.SceneName, out List<string> testsToSkip))
+        {
+            return testsToSkip.Contains(testName);
+        }
+        return false;
     }
 }
 

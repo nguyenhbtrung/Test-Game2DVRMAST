@@ -3196,3 +3196,517 @@ TestPlayerCollisionFinishPoint passed.
 Scene: Game3
 TestPlayerCollisionFinishPoint
 TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParametersWhenIdle
+Size Y của HitBox không hợp lệ. Expected: 0.2467658 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.02931939 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParameterWhenJumping
+Size Y của HitBox không hợp lệ. Expected: 0.2467658 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.02931939 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParameterWhenJumpingAndMovingLeft
+Size Y của HitBox không hợp lệ. Expected: 0.2467658 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.02931939 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParameterWhenJumpingAndMovingRight
+Size Y của HitBox không hợp lệ. Expected: 0.2467658 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.02931939 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParameterWhenMovingLeft
+Size Y của HitBox không hợp lệ. Expected: 0.2505064 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.01658058 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParameterWhenMovingRight
+Size Y của HitBox không hợp lệ. Expected: 0.2505064 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.01658058 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionWithNoDamegeTrap
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionWithNoDamegeTrap
+TestPlayerCollisionWithNoDamegeTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionWithTrapDeactivated
+Player va chạm với bẫy Spiked Ball không bị ngừng hoạt động. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionWithTrapDeadAnimation
+Player va chạm với bẫy Spiked Ball không hiện dead animation. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionWithTrapReceiveDamage
+Player va chạm với bẫy Spiked Ball không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+TestPlayerCollisionWithTrapUntilRunsOutOfLives passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerStandOnMovingPlatform
+TestPlayerStandOnMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerStandUnderVerticalMovingPlatform
+TestPlayerStandUnderVerticalMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestFinishPointHasBoxCollider
+TestFinishPointHasBoxCollider passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestFinishPointHasWinScript
+TestFinishPointHasWinScript passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestFinishPointHitboxParameters
+Size Y của HitBox không hợp lệ. Expected: 0.3739359 +/- 0.0256, Actual: 0.5811095
+Offset Y của HitBox không hợp lệ. Expected: -0.1330321 +/- 0.0256, Actual: -0.02944523
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestMovingPlatformHasBoxCollider
+TestMovingPlatformHasBoxCollider passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestMovingPlatHasGroundTag
+On (32x10)_0 không có Tag 'Ground'.
+On (32x10)_0 (1) không có Tag 'Ground'.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestMovingPlatHitboxParameters
+---On (32x10)_0: 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+---On (32x10)_0 (1): 
+Size X của HitBox không hợp lệ. Expected: 0.32 +/- 0.0128, Actual: 0.3051289
+Size Y của HitBox không hợp lệ. Expected: 0.1 +/- 0.004, Actual: 0.1227005
+Offset Y của HitBox không hợp lệ. Expected: 0 +/- 0.004, Actual: 0.01135025
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHasCapsuleCollider
+TestPlayerHasCapsuleCollider passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHasPlayerScript
+TestPlayerHasPlayerScript passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParametersWhenIdle
+Size Y của HitBox không hợp lệ. Expected: 0.2467658 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.02931939 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParameterWhenJumping
+Size Y của HitBox không hợp lệ. Expected: 0.2467658 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.02931939 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParameterWhenJumpingAndMovingLeft
+Size Y của HitBox không hợp lệ. Expected: 0.2467658 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.02931939 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParameterWhenJumpingAndMovingRight
+Size Y của HitBox không hợp lệ. Expected: 0.2467658 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.02931939 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParameterWhenMovingLeft
+Size Y của HitBox không hợp lệ. Expected: 0.2505064 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.01658058 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerHitboxParameterWhenMovingRight
+Size Y của HitBox không hợp lệ. Expected: 0.2505064 +/- 0.0128, Actual: 0.27
+Offset Y của HitBox không hợp lệ. Expected: -0.01658058 +/- 0.0128, Actual: 0
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestTrapsHasAppropriateCollider
+On (38x38)_0 không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (2) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (3) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (4) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+On (38x38)_0 (1) không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+Spiked Ball không có Collider2D phù hợp. Expected: CapsuleCollider2D, Actual: BoxCollider2D.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestTrapsHasTrapTag
+TestTrapsHasTrapTag passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestTrapsHasTrapTag
+---On (38x38)_0: 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (2): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (3): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (4): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (1): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---Spiked Ball: 
+Size X của HitBox không hợp lệ. Expected: 0.25 +/- 0.0112, Actual: 0.1854367
+Offset Y của HitBox không hợp lệ. Expected: -0.00494933 +/- 0.0112, Actual: 0.01576048
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestTrapsHasTrapTag
+---On (38x38)_0: 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (2): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (3): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (4): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---On (38x38)_0 (1): 
+Size X của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3231071
+Size Y của HitBox không hợp lệ. Expected: 0.38 +/- 0.0152, Actual: 0.3041426
+---Spiked Ball: 
+Size X của HitBox không hợp lệ. Expected: 0.25 +/- 0.0112, Actual: 0.1854367
+Offset Y của HitBox không hợp lệ. Expected: -0.00494933 +/- 0.0112, Actual: 0.01576048
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+TestPlayerCollisionWithNoDamegeTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapDeactivated
+TestPlayerCollisionWithTrapDeactivated passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapDeadAnimation
+TestPlayerCollisionWithTrapDeadAnimation passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapReceiveDamage
+TestPlayerCollisionWithTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+TestPlayerCollisionWithTrapUntilRunsOutOfLives passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnMovingPlatform
+Player không đứng được trên platform động On (32x10)_0. 1.679801 (-0.59, -0.34, 2.50) (0.33, 1.06, 2.50)
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandUnderVerticalMovingPlatform
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionFinishPoint
+Màn hình gameWin không hiển thị khi Player va chạm với FinishPoint.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+TestPlayerCollisionFinishPoint
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+TestPlayerCollisionWithNoDamegeTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnMovingPlatform
+Player không đứng được trên platform động On (32x10)_0. 1.693074 (-0.60, -0.34, 2.50) (0.34, 1.06, 2.50)
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandUnderVerticalMovingPlatform
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+TestPlayerCollisionWithNoDamegeTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapDeactivated
+TestPlayerCollisionWithTrapDeactivated passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapDeadAnimation
+TestPlayerCollisionWithTrapDeadAnimation passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapReceiveDamage
+TestPlayerCollisionWithTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+TestPlayerCollisionWithTrapUntilRunsOutOfLives passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerBlockedByWall
+TestPlayerBlockedByWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnMovingPlatform
+Player không đứng được trên platform động On (32x10)_0. 1.669186 (-0.59, -0.34, 2.50) (0.32, 1.06, 2.50)
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandUnderVerticalMovingPlatform
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithNoDamegeTrap
+TestPlayerCollisionWithNoDamegeTrap passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapDeactivated
+TestPlayerCollisionWithTrapDeactivated passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapDeadAnimation
+TestPlayerCollisionWithTrapDeadAnimation passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapReceiveDamage
+TestPlayerCollisionWithTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionWithTrapUntilRunsOutOfLives
+TestPlayerCollisionWithTrapUntilRunsOutOfLives passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandUnderVerticalMovingPlatform
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestIsGroundedStatusBeforeAndAfterJump
+TestIsGroundedStatusBeforeAndAfterJump passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1

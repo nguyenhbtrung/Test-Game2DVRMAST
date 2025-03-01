@@ -118,15 +118,78 @@ public class HitboxConfigTests
     }
 
     [UnityTest]
-    public IEnumerator TestPlayerHitboxParameterWhenMoving()
+    public IEnumerator TestPlayerHitboxParameterWhenMovingLeft()
+    {
+        var movementScript = GameObject.Find(PLAYER_NAME).GetComponent<dichuyen2>();
+        yield return TestPlayerHitboxParameterWhenMoving(
+            testName: nameof(TestPlayerHitboxParameterWhenMovingLeft),
+            moveAction: () => movementScript.MoveLeft(),
+            hitBoxType: HitBoxType.PlayerRun
+        );
+    }
+
+    [UnityTest]
+    public IEnumerator TestPlayerHitboxParameterWhenMovingRight()
+    {
+        var movementScript = GameObject.Find(PLAYER_NAME).GetComponent<dichuyen2>();
+        yield return TestPlayerHitboxParameterWhenMoving(
+            testName: nameof(TestPlayerHitboxParameterWhenMovingRight),
+            moveAction: () => movementScript.MoveRight(),
+            hitBoxType: HitBoxType.PlayerRun
+        );
+    }
+
+    [UnityTest]
+    public IEnumerator TestPlayerHitboxParameterWhenJumping()
+    {
+        var movementScript = GameObject.Find(PLAYER_NAME).GetComponent<dichuyen2>();
+        yield return TestPlayerHitboxParameterWhenMoving(
+            testName: nameof(TestPlayerHitboxParameterWhenJumping),
+            moveAction: () => movementScript.JumpButton(),
+            hitBoxType: HitBoxType.PlayerIdle
+        );
+    }
+
+    [UnityTest]
+    public IEnumerator TestPlayerHitboxParameterWhenJumpingAndMovingLeft()
+    {
+        var movementScript = GameObject.Find(PLAYER_NAME).GetComponent<dichuyen2>();
+        yield return TestPlayerHitboxParameterWhenMoving
+        (
+            testName: nameof(TestPlayerHitboxParameterWhenJumpingAndMovingLeft),
+            moveAction: () => 
+            {
+                movementScript.MoveLeft();
+                movementScript.JumpButton();
+            },
+            hitBoxType: HitBoxType.PlayerIdle
+        );
+    }
+
+    [UnityTest]
+    public IEnumerator TestPlayerHitboxParameterWhenJumpingAndMovingRight()
+    {
+        var movementScript = GameObject.Find(PLAYER_NAME).GetComponent<dichuyen2>();
+        yield return TestPlayerHitboxParameterWhenMoving
+        (
+            testName: nameof(TestPlayerHitboxParameterWhenJumpingAndMovingRight),
+            moveAction: () =>
+            {
+                movementScript.MoveRight();
+                movementScript.JumpButton();
+            },
+            hitBoxType: HitBoxType.PlayerIdle
+        );
+    }
+
+    public IEnumerator TestPlayerHitboxParameterWhenMoving(string testName, System.Action moveAction, HitBoxType hitBoxType)
     {
         string logFileName = TestSettings.TestLogFileName;
-        string message = nameof(TestPlayerHitboxParameterWhenMoving);
+        string message = testName;
         TestLogger.Log(message, logFileName);
 
         GameObject player = GameObject.Find(PLAYER_NAME);
-        var movementScript = player.GetComponent<dichuyen2>();
-        movementScript.MoveLeft();
+        moveAction.Invoke();
 
         yield return null;
 
@@ -135,7 +198,7 @@ public class HitboxConfigTests
         Vector2 spriteSize = sprite.bounds.size;
 
         var collider = player.GetComponent<CapsuleCollider2D>();
-        HitBoxConfig playerHitBoxConfig = HitBoxConfigManager.GetHitBoxConfig(HitBoxType.PlayerRun);
+        HitBoxConfig playerHitBoxConfig = HitBoxConfigManager.GetHitBoxConfig(hitBoxType);
 
         List<string> issues = new List<string>();
 
@@ -151,7 +214,7 @@ public class HitboxConfigTests
         }
         else
         {
-            string successMessage = $"{nameof(TestPlayerHitboxParameterWhenMoving)} passed.";
+            string successMessage = $"{testName} passed.";
             TestLogger.Log(successMessage, logFileName);
             Assert.Pass(successMessage);
         }
