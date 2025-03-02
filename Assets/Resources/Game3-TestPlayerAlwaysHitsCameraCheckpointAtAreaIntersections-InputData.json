@@ -1,0 +1,58 @@
+{
+    "actionSequences": [
+        {
+            "begin": {
+                "position": {
+                    "x": 2.45,
+                    "y": 2.854
+                },
+                "action": "none"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 2.45,
+                    "y": 3.099
+                },
+                "action": "none"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 3.273,
+                    "y": 5.572
+                },
+                "action": "none"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 3.273,
+                    "y": 5.814
+                },
+                "action": "none"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 9.988,
+                    "y": 5.404
+                },
+                "action": "none"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 9.988,
+                    "y": 5.791
+                },
+                "action": "none"
+            }
+        }
+    ]
+}

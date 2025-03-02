@@ -3710,3 +3710,272 @@ TestIsGroundedStatusBeforeAndAfterJump passed.
 -------------------------------------------
 -------------------------------------------
 Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections
+Lỗi. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections
+Lỗi. 
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections
+TestPlayerAlwaysHitsCameraCheckpointAtAreaIntersections passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMoveLeftHitCameraCheckpoint
+TestPlayerMoveLeftHitCameraCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMoveLeftHitCameraCheckpoint
+Camera không di chuyển khi Player đi qua Camera Checkpoint tại (4.02, -0.32)
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMoveLeftHitCameraCheckpoint
+Camera không di chuyển khi Player đi qua Camera Checkpoint tại (4.02, -0.32)
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMoveLeftHitCameraCheckpoint
+Camera không di chuyển khi Player đi qua Camera Checkpoint tại (4.02, -0.32)
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMoveLeftHitCameraCheckpoint
+Camera không di chuyển khi Player đi qua Camera Checkpoint tại (3.70, -3.86)
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMoveLeftHitCameraCheckpoint
+Camera không di chuyển khi Player đi qua Camera Checkpoint tại (3.70, -3.86)
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerMoveLeftHitCameraCheckpoint
+TestPlayerMoveLeftHitCameraCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestIsGroundedStatusWhenPlayerHitCeiling
+IsGrounded = true khi Player chạm trần
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestIsGroundedStatusWhenPlayerHitCeiling
+IsGrounded = true khi Player chạm trần
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestIsGroundedStatusWhenPlayerHitCeiling
+IsGrounded = true khi Player chạm trần
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestIsGroundedStatusWhenPlayerHitCeiling
+TestPlayerStandUnderVerticalMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestIsGroundedStatusWhenPlayerHitCeiling
+IsGrounded = true khi Player chạm trần
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestIsGroundedStatusWhenPlayerHitCeiling
+IsGrounded = true khi Player chạm trần
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestIsGroundedStatusWhenPlayerHitCeiling
+IsGrounded = true khi Player chạm trần
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusWhenPlayerHitCeiling
+TestPlayerStandUnderVerticalMovingPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusWhenPlayerHitCeiling
+IsGrounded = true khi Player chạm trần
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusWhenPlayerHitWall
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusWhenPlayerHitWall
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusWhenPlayerHitWall
+TestIsGroundedStatusWhenPlayerHitWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusWhenPlayerHitWall
+TestIsGroundedStatusWhenPlayerHitWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusWhenPlayerHitWall
+TestIsGroundedStatusWhenPlayerHitWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusWhenPlayerHitWall
+TestIsGroundedStatusWhenPlayerHitWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestIsGroundedStatusWhenPlayerHitWall
+IsGrounded = true khi Player chạm tường
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestIsGroundedStatusWhenPlayerHitWall
+IsGrounded = true khi Player chạm tường
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestIsGroundedStatusWhenPlayerHitWall
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestIsGroundedStatusWhenPlayerHitWall
+IsGrounded = true khi Player chạm tường
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestIsGroundedStatusWhenPlayerHitWall
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestIsGroundedStatusWhenPlayerHitWall
+IsGrounded = true khi Player chạm tường
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMoveStickToWallOnTheAir
+Player không bị rơi xuống đất sau khi đã chạm tường
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMoveStickToWallOnTheAir
+Player không bị rơi xuống đất sau khi đã chạm tường
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMoveStickToWallOnTheAir
+Player không bị rơi xuống đất sau khi đã chạm tường
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerMoveStickToWallOnTheAir
+Player không bị rơi xuống đất sau khi đã chạm tường
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerMoveStickToWallOnTheAir
+Player không bị rơi xuống đất sau khi đã chạm tường
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerCanJumpWhenHitWallHitbox
+TestPlayerCanJumpWhenHitWallHitbox passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCanJumpWhenHitWallHitbox
+TestPlayerCanJumpWhenHitWallHitbox passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCanJumpWhenHitWallHitbox
+TestPlayerCanJumpWhenHitWallHitbox passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCanJumpWhenHitWallHitbox
+TestPlayerCanJumpWhenHitWallHitbox passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCanJumpWhileHittingWallHitbox
+TestPlayerCanJumpWhileHittingWallHitbox passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCanJumpWhileMovingIntoWall
+TestPlayerCanJumpWhileMovingIntoWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCanJumpWhileHittingWallHitbox
+TestPlayerCanJumpWhileHittingWallHitbox passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerCanJumpWhileMovingIntoWall
+TestPlayerCanJumpWhileMovingIntoWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCanJumpWhileHittingWallHitbox
+TestPlayerCanJumpWhileHittingWallHitbox passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCanJumpWhileMovingIntoWall
+TestPlayerCanJumpWhileMovingIntoWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCanJumpWhileHittingWallHitbox
+TestPlayerCanJumpWhileHittingWallHitbox passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerCanJumpWhileMovingIntoWall
+TestPlayerCanJumpWhileMovingIntoWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerCanJumpWhileHittingWallHitbox
+TestPlayerCanJumpWhileHittingWallHitbox passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerCanJumpWhileMovingIntoWall
+TestPlayerCanJumpWhileMovingIntoWall passed.

@@ -44,25 +44,25 @@ public class TrapIntegrationTests
         [UnityTest]
         public IEnumerator Test3()
         {
-            Assert.Ignore("bỏ qua");
             SceneManager.LoadScene(TestSettings.SceneIndex);
             yield return null;
+            
 
-            var player = GameObject.Find("NoDamage");
-            var spriteRenderer = player.GetComponent<SpriteRenderer>();
-            var sprite = spriteRenderer.sprite;
-            Vector2 spriteSize = sprite.bounds.size;
-            var collider = player.GetComponent<BoxCollider2D>();
-            Vector2 colliderSize = collider.size;
+            GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+            Camera cam = GameObject.FindObjectOfType<Camera>();
 
-            // Tính toán tỉ lệ kích thước
-            float widthRatio = colliderSize.x / spriteSize.x;
-            float heightRatio = colliderSize.y / spriteSize.y;
+            //player.transform.position = new Vector2(1.19f, 2.12f);
+            yield return new WaitForSeconds(0.5f);
 
-            Vector2 offset = collider.offset;
-            float offsetRatioX = offset.x / spriteSize.x;
-            float offsetRatioY = offset.y / spriteSize.y;
-            Assert.Pass($"return new HitBoxConfig({widthRatio}f, {heightRatio}f, {offsetRatioX}f, {offsetRatioY}f);");
+            Vector3 viewportPoint = cam.WorldToViewportPoint(player.transform.position);
+            if (viewportPoint.x >= 0 && viewportPoint.x <= 1 && viewportPoint.y >= 0 && viewportPoint.y <= 1 && viewportPoint.z >= 0)
+            {
+                Assert.Pass("pass");
+            }
+            else
+            {
+                Assert.Fail("fail");
+            }
         }
 
 

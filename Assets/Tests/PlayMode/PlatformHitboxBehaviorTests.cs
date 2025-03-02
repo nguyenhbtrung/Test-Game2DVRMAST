@@ -308,7 +308,298 @@ namespace HitboxBehaviorTests
 
             yield return null;
         }
+
+        [UnityTest]
+        public IEnumerator TestIsGroundedStatusWhenPlayerHitCeiling()
+        {
+            string logFileName = TestSettings.TestLogFileName;
+            string message = nameof(TestIsGroundedStatusWhenPlayerHitCeiling);
+            TestLogger.Log(message, logFileName);
+
+            GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+            dichuyen2 playerMovement = player.GetComponent<dichuyen2>();
+            string file = $"{TestSettings.SceneName}-{nameof(TestIsGroundedStatusWhenPlayerHitCeiling)}-InputData";
+            LoadSimulatorInputData(file);
+            HideTraps();
+            HideMovingPlatforms();
+
+            GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+            List<string> issues = new();
+
+            foreach (var sequence in sequences)
+            {
+                player.transform.position = sequence.begin.position;
+                cam.transform.position = player.transform.position + Vector3.back * 10;
+
+                ProcessPlayerAction(playerMovement, sequence.begin);
+                Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
+                yield return null;
+
+                while (rb.velocity.y > 0)
+                {
+                    yield return null;
+                }
+
+                FieldInfo isGroundedField = typeof(dichuyen2)
+                .GetField("isGrounded", BindingFlags.NonPublic | BindingFlags.Instance);
+                Assert.IsNotNull(isGroundedField, "Không tìm thấy trường isGrounded trong PlayerController!");
+                bool isGrounded = (bool)isGroundedField.GetValue(playerMovement);
+                if (isGrounded)
+                {
+                    issues.Add("IsGrounded = true khi Player chạm trần");
+                }
+
+            }
+            if (issues.Count > 0)
+            {
+                string errorMessage = string.Join("\n", issues);
+                TestLogger.Log(errorMessage, logFileName);
+                Assert.Fail(errorMessage);
+            }
+            else
+            {
+                string successMessage = $"{nameof(TestPlayerStandUnderVerticalMovingPlatform)} passed.";
+                TestLogger.Log(successMessage, logFileName);
+                Assert.Pass(successMessage);
+            }
+
+            yield return null;
+
+        }
+
+        [UnityTest]
+        public IEnumerator TestIsGroundedStatusWhenPlayerHitWall()
+        {
+            string logFileName = TestSettings.TestLogFileName;
+            string message = nameof(TestIsGroundedStatusWhenPlayerHitWall);
+            TestLogger.Log(message, logFileName);
+
+            GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+            dichuyen2 playerMovement = player.GetComponent<dichuyen2>();
+            string file = $"{TestSettings.SceneName}-{nameof(TestIsGroundedStatusWhenPlayerHitWall)}-InputData";
+            LoadSimulatorInputData(file);
+            HideTraps();
+            HideMovingPlatforms();
+
+            GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+            List<string> issues = new();
+
+            foreach (var sequence in sequences)
+            {
+                player.transform.position = sequence.begin.position;
+                cam.transform.position = player.transform.position + Vector3.back * 10;
+
+                ProcessPlayerAction(playerMovement, sequence.begin);
+                if (sequence.actions != null)
+                    foreach (var actionData in sequence.actions)
+                    {
+                        yield return new WaitUntil(() =>
+                            Vector2.Distance(player.transform.position, actionData.position) < positionThreshold);
+                        ProcessPlayerAction(playerMovement, actionData);
+
+                    }
+
+                Vector3 lastPosX = player.transform.position;
+                yield return new WaitForSeconds(0.1f);
+
+                while (lastPosX != player.transform.position)
+                {
+                    lastPosX = player.transform.position;
+                    yield return new WaitForSeconds(0.1f);
+                }
+
+                FieldInfo isGroundedField = typeof(dichuyen2)
+                .GetField("isGrounded", BindingFlags.NonPublic | BindingFlags.Instance);
+                Assert.IsNotNull(isGroundedField, "Không tìm thấy trường isGrounded trong PlayerController!");
+                bool isGrounded = (bool)isGroundedField.GetValue(playerMovement);
+                if (isGrounded)
+                {
+                    issues.Add("IsGrounded = true khi Player chạm tường");
+                }
+
+            }
+            if (issues.Count > 0)
+            {
+                string errorMessage = string.Join("\n", issues);
+                TestLogger.Log(errorMessage, logFileName);
+                Assert.Fail(errorMessage);
+            }
+            else
+            {
+                string successMessage = $"{nameof(TestIsGroundedStatusWhenPlayerHitWall)} passed.";
+                TestLogger.Log(successMessage, logFileName);
+                Assert.Pass(successMessage);
+            }
+
+            yield return null;
+
+        }
+
+
+        [UnityTest]
+        public IEnumerator TestPlayerMoveStickToWallOnTheAir()
+        {
+            string logFileName = TestSettings.TestLogFileName;
+            string message = nameof(TestPlayerMoveStickToWallOnTheAir);
+            TestLogger.Log(message, logFileName);
+
+            GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+            dichuyen2 playerMovement = player.GetComponent<dichuyen2>();
+            string file = $"{TestSettings.SceneName}-{nameof(TestPlayerMoveStickToWallOnTheAir)}-InputData";
+            LoadSimulatorInputData(file);
+            HideTraps();
+            HideMovingPlatforms();
+
+            GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+            List<string> issues = new();
+
+            foreach (var sequence in sequences)
+            {
+                player.transform.position = sequence.begin.position;
+                cam.transform.position = player.transform.position + Vector3.back * 10;
+                float yOnGround = 0f;
+
+                ProcessPlayerAction(playerMovement, sequence.begin);
+                if (sequence.actions != null)
+                    foreach (var actionData in sequence.actions)
+                    {
+                        yield return new WaitUntil(() =>
+                            Vector2.Distance(player.transform.position, actionData.position) < positionThreshold);
+                        yOnGround = player.transform.position.y;
+                        ProcessPlayerAction(playerMovement, actionData);
+                    }
+
+                yield return new WaitForSeconds(2f);
+
+                if (player.transform.position.y > yOnGround)
+                {
+                    issues.Add("Player không bị rơi xuống đất sau khi đã chạm tường");
+                }
+
+            }
+            if (issues.Count > 0)
+            {
+                string errorMessage = string.Join("\n", issues);
+                TestLogger.Log(errorMessage, logFileName);
+                Assert.Fail(errorMessage);
+            }
+            else
+            {
+                string successMessage = $"{nameof(TestPlayerMoveStickToWallOnTheAir)} passed.";
+                TestLogger.Log(successMessage, logFileName);
+                Assert.Pass(successMessage);
+            }
+
+            yield return null;
+
+        }
+
+        [UnityTest]
+        public IEnumerator TestPlayerCanJumpWhileHittingWallHitbox()
+        {
+            string logFileName = TestSettings.TestLogFileName;
+            string message = nameof(TestPlayerCanJumpWhileHittingWallHitbox);
+            TestLogger.Log(message, logFileName);
+
+            GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+            dichuyen2 playerMovement = player.GetComponent<dichuyen2>();
+            string file = $"{TestSettings.SceneName}-{nameof(TestPlayerCanJumpWhileHittingWallHitbox)}-InputData";
+            LoadSimulatorInputData(file);
+            HideTraps();
+            HideMovingPlatforms();
+
+            GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+            List<string> issues = new();
+
+            foreach (var sequence in sequences)
+            {
+                player.transform.position = sequence.begin.position;
+                cam.transform.position = player.transform.position + Vector3.back * 10;
+                float yOnGround = 0f;
+                ProcessPlayerAction(playerMovement, sequence.begin);
+                yield return new WaitForSeconds(0.5f);
+                playerMovement.StopMoveRight();
+                playerMovement.StopMoveLeft();
+                yield return null;
+                playerMovement.JumpButton();
+
+                yield return new WaitForSeconds(0.1f);
+
+                if (player.transform.position.y == yOnGround)
+                {
+                    issues.Add("Player không thể nhảy khi chạm hitbox của tường ");
+                }
+
+            }
+            if (issues.Count > 0)
+            {
+                string errorMessage = string.Join("\n", issues);
+                TestLogger.Log(errorMessage, logFileName);
+                Assert.Fail(errorMessage);
+            }
+            else
+            {
+                string successMessage = $"{nameof(TestPlayerCanJumpWhileHittingWallHitbox)} passed.";
+                TestLogger.Log(successMessage, logFileName);
+                Assert.Pass(successMessage);
+            }
+
+            yield return null;
+
+        }
+
+        [UnityTest]
+        public IEnumerator TestPlayerCanJumpWhileMovingIntoWall()
+        {
+            string logFileName = TestSettings.TestLogFileName;
+            string message = nameof(TestPlayerCanJumpWhileMovingIntoWall);
+            TestLogger.Log(message, logFileName);
+
+            GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+            dichuyen2 playerMovement = player.GetComponent<dichuyen2>();
+            string file = $"{TestSettings.SceneName}-{nameof(TestPlayerCanJumpWhileMovingIntoWall)}-InputData";
+            LoadSimulatorInputData(file);
+            HideTraps();
+            HideMovingPlatforms();
+
+            GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+            List<string> issues = new();
+
+            foreach (var sequence in sequences)
+            {
+                player.transform.position = sequence.begin.position;
+                cam.transform.position = player.transform.position + Vector3.back * 10;
+                float yOnGround = 0f;
+                ProcessPlayerAction(playerMovement, sequence.begin);
+                yield return new WaitForSeconds(0.5f);
+                playerMovement.JumpButton();
+
+                yield return new WaitForSeconds(0.1f);
+
+                if (player.transform.position.y == yOnGround)
+                {
+                    issues.Add("Player không thể nhảy khi di chuyển đâm vào tường ");
+                }
+
+            }
+            if (issues.Count > 0)
+            {
+                string errorMessage = string.Join("\n", issues);
+                TestLogger.Log(errorMessage, logFileName);
+                Assert.Fail(errorMessage);
+            }
+            else
+            {
+                string successMessage = $"{nameof(TestPlayerCanJumpWhileMovingIntoWall)} passed.";
+                TestLogger.Log(successMessage, logFileName);
+                Assert.Pass(successMessage);
+            }
+
+            yield return null;
+
+        }
     }
+   
 }
 
 

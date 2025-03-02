@@ -1,0 +1,13 @@
+{
+    "actionSequences": [
+        {
+            "begin": {
+                "position": {
+                    "x": -0.212,
+                    "y": -0.179
+                },
+                "action": "right"
+            }
+        }
+    ]
+}
