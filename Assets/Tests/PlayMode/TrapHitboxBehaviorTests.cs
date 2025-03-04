@@ -374,6 +374,82 @@ namespace HitboxBehaviorTests
                 CheckAction: CheckReceiveDamage
             );
         }
+        [UnityTest]
+        public IEnumerator TestPlayerJumpHitTrapReceiveDamage()
+        {
+            yield return TestPlayerHitTrapsWhenMove
+            (
+                testName: nameof(TestPlayerJumpHitTrapReceiveDamage),
+                inputDataName: nameof(TestPlayerJumpHitTrapReceiveDamage),
+                CheckAction: CheckReceiveDamage
+            );
+        }
+
+        [UnityTest]
+        public IEnumerator TestPlayerMovingLeftHitTrapDeactivated()
+        {
+            yield return TestPlayerHitTrapsWhenMove
+            (
+                testName: nameof(TestPlayerMovingLeftHitTrapDeactivated),
+                inputDataName: nameof(TestPlayerMovingLeftHitTrapReceiveDamage),
+                CheckAction: CheckDeactivated
+            );
+        }
+
+        [UnityTest]
+        public IEnumerator TestPlayerMovingRightHitTrapDeactivated()
+        {
+            yield return TestPlayerHitTrapsWhenMove
+            (
+                testName: nameof(TestPlayerMovingRightHitTrapDeactivated),
+                inputDataName: nameof(TestPlayerMovingRightHitTrapReceiveDamage),
+                CheckAction: CheckDeactivated
+            );
+        }
+
+        [UnityTest]
+        public IEnumerator TestPlayerJumpHitTrapDeactivated()
+        {
+            yield return TestPlayerHitTrapsWhenMove
+            (
+                testName: nameof(TestPlayerJumpHitTrapDeactivated),
+                inputDataName: nameof(TestPlayerJumpHitTrapReceiveDamage),
+                CheckAction: CheckDeactivated
+            );
+        }
+
+        [UnityTest]
+        public IEnumerator TestPlayerMovingLeftHitTrapDeadAnimation()
+        {
+            yield return TestPlayerHitTrapsWhenMove
+            (
+                testName: nameof(TestPlayerMovingLeftHitTrapDeadAnimation),
+                inputDataName: nameof(TestPlayerMovingLeftHitTrapReceiveDamage),
+                CheckAction: CheckDeadAnimation
+            );
+        }
+
+        [UnityTest]
+        public IEnumerator TestPlayerMovingRightHitTrapDeadAnimation()
+        {
+            yield return TestPlayerHitTrapsWhenMove
+            (
+                testName: nameof(TestPlayerMovingRightHitTrapDeadAnimation),
+                inputDataName: nameof(TestPlayerMovingRightHitTrapReceiveDamage),
+                CheckAction: CheckDeadAnimation
+            );
+        }
+
+        [UnityTest]
+        public IEnumerator TestPlayerJumpHitTrapDeadAnimation()
+        {
+            yield return TestPlayerHitTrapsWhenMove
+            (
+                testName: nameof(TestPlayerJumpHitTrapDeadAnimation),
+                inputDataName: nameof(TestPlayerJumpHitTrapReceiveDamage),
+                CheckAction: CheckDeadAnimation
+            );
+        }
 
         public IEnumerator CheckReceiveDamage(dichuyen2 playerMovement, Player playerScript, List<string> issues, int inititalLives)
         {
@@ -390,6 +466,42 @@ namespace HitboxBehaviorTests
                 issues.Add(issue);
             }
         }
+
+        public IEnumerator CheckDeactivated(dichuyen2 playerMovement, Player playerScript, List<string> issues, int inititalLives)
+        {
+
+            yield return new WaitForFixedUpdate();
+            if (playerScript.CanMove())
+            {
+                string issue = $"Player va chạm với bẫy tại {playerScript.transform.position} không bị ngừng hoạt động. ";
+                issues.Add(issue);
+            }
+        }
+
+        public IEnumerator CheckDeadAnimation(dichuyen2 playerMovement, Player playerScript, List<string> issues, int inititalLives)
+        {
+
+            yield return new WaitForFixedUpdate();
+            float duration = 0f;
+            bool isDeadAnimation = false;
+            while (duration <= 1)
+            {
+                if (playerScript.playerSprite.color == playerScript.damagedColor)
+                {
+                    isDeadAnimation = true;
+                    break;
+                }
+                duration += Time.deltaTime;
+                yield return null;
+            }
+            if (!isDeadAnimation)
+            {
+                string issue = $"Player va chạm với bẫy tại {playerScript.transform.position} không hiện dead animation. ";
+                issues.Add(issue);
+            }
+        }
+
+
         public IEnumerator TestPlayerHitTrapsWhenMove(string testName, string inputDataName, CheckActionDelegate CheckAction)
         {
             string logFileName = TestSettings.TestLogFileName;
