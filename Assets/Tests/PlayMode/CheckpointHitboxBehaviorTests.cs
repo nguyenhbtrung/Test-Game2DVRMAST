@@ -60,6 +60,69 @@ namespace HitboxBehaviorTests
             yield return null;
         }
 
+
+        [UnityTest]
+        public IEnumerator TestPlayerAlwaysHitsPlayerCheckpoint()
+        {
+            string logFileName = TestSettings.TestLogFileName;
+            string message = nameof(TestPlayerAlwaysHitsPlayerCheckpoint);
+            TestLogger.Log(message, logFileName);
+
+
+            string file = $"{TestSettings.SceneName}-{nameof(TestPlayerAlwaysHitsPlayerCheckpoint)}-InputData";
+            LoadSimulatorInputData(file);
+
+            List<string> issues = new();
+
+            foreach (var sequence in sequences)
+            {
+                SceneManager.LoadScene(TestSettings.SceneIndex);
+                yield return null;
+                
+                HideMovingPlatforms();
+                HideCameraCheckpoints();
+
+                GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+                dichuyen2 playerMovement = player.GetComponent<dichuyen2>();
+                player.GetComponent<Rigidbody2D>().isKinematic = true;
+                CollisionDetector collisionDetector = player.AddComponent<CollisionDetector>();
+                GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+
+                player.transform.position = sequence.begin.position;
+                cam.transform.position = player.transform.position + Vector3.back * 10f;
+                yield return new WaitForSeconds(0.2f);
+
+                player.transform.position = sequence.actions[0].position;
+                cam.transform.position = player.transform.position + Vector3.back * 10f;
+                player.GetComponent<Rigidbody2D>().isKinematic = false;
+
+                yield return new WaitForSeconds(1f);
+                cam.transform.position = (Vector3)collisionDetector.CheckPointPos + Vector3.back * 10;
+                yield return new WaitForSeconds(1f);
+
+                if (Vector2.Distance(player.transform.position, collisionDetector.CheckPointPos) > 0.3f)
+                {
+                    string issue = $"Player tại vị trí {sequence.begin.position} không chạm Player checkpoint.";
+                    issues.Add(issue);
+                }
+            }
+
+            if (issues.Count > 0)
+            {
+                string errorMessage = string.Join("\n", issues);
+                TestLogger.Log(errorMessage, logFileName);
+                Assert.Fail(errorMessage);
+            }
+            else
+            {
+                string successMessage = $"{nameof(TestPlayerAlwaysHitsPlayerCheckpoint)} passed.";
+                TestLogger.Log(successMessage, logFileName);
+                Assert.Pass(successMessage);
+            }
+
+            yield return null;
+        }
+
         //[UnityTest]
         //public IEnumerator TestPlayerMoveLeftHitCameraCheckpoint()
         //{

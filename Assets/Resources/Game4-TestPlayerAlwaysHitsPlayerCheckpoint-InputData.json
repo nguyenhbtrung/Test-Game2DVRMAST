@@ -1,0 +1,184 @@
+{
+    "actionSequences": [
+        {
+            "begin": {
+                "position": {
+                    "x": -2.455,
+                    "y": 2.69
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -0.47,
+                        "y": 2.71
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": -2.455,
+                    "y": 2.756
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -0.47,
+                        "y": 2.71
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": -2.971,
+                    "y": 4.298
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -3.175,
+                        "y": 2.703
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": -2.971,
+                    "y": 4.516
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -3.175,
+                        "y": 2.703
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": -3.667,
+                    "y": 5.732
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -3.175,
+                        "y": 2.703
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": -3.667,
+                    "y": 5.955
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -3.175,
+                        "y": 2.703
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": -2.965,
+                    "y": 11.172
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -2.6,
+                        "y": 8.79
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": -2.965,
+                    "y": 11.394
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -2.6,
+                        "y": 8.79
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 2.461,
+                    "y": 8.38
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -2.472,
+                        "y": 7.503
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 2.624,
+                    "y": 8.304
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -2.472,
+                        "y": 7.503
+                    },
+                    "action": "none"
+                }
+            ]
+        }
+    ]
+}

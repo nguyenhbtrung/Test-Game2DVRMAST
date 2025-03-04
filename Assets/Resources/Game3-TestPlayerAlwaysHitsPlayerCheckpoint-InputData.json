@@ -1,0 +1,112 @@
+{
+    "actionSequences": [
+        {
+            "begin": {
+                "position": {
+                    "x": 2.629,
+                    "y": 2.882
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -0.273,
+                        "y": 4.311
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 2.254,
+                    "y": 2.882
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": -0.273,
+                        "y": 4.311
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 3.264,
+                    "y": 5.575
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": 5.501,
+                        "y": 3.388
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 3.264,
+                    "y": 5.798
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": 5.501,
+                        "y": 3.388
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 9.897,
+                    "y": 5.422
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": 14.24,
+                        "y": 4.35
+                    },
+                    "action": "none"
+                }
+            ]
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 9.897,
+                    "y": 5.803
+                },
+                "action": "none"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": 14.24,
+                        "y": 4.35
+                    },
+                    "action": "none"
+                }
+            ]
+        }
+    ]
+}

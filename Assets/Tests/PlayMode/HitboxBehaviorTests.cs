@@ -56,6 +56,14 @@ namespace HitboxBehaviorTests
                 movingPlatformParent.SetActive(true); movingPlatformParent.SetActive(false);
             }
         }
+        protected void HideCameraCheckpoints()
+        {
+            GameObject cameraCheckpointParent = GameObject.Find(TestHelper.CAMERA_CHECKPOINT_PARENT_NAME);
+            if (cameraCheckpointParent != null)
+            {
+                cameraCheckpointParent.SetActive(true); cameraCheckpointParent.SetActive(false);
+            }
+        }
 
         protected Transform GetMovingPlatformAbove(Vector3 position, float maxDistance)
         {

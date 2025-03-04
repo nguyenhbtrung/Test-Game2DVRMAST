@@ -13,6 +13,7 @@ public static class TestHelper
     public const string TRAP_PARENT_NAME = "Trap";
     public const string MOVING_PLATFORM_PARENT_NAME = "SupMove";
     public const string MOVING_PLATFORM_NAME = "On (32x10)_0";
+    public const string CAMERA_CHECKPOINT_PARENT_NAME = "Next";
 
     public static TrapType GetTrapType(string trapName)
     {

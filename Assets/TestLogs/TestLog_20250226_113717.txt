@@ -4430,3 +4430,78 @@ TestPlayerMovingRightAndJumpHitFinishPoint passed.
 Scene: Game4
 TestPlayerMovingRightAndJumpHitFinishPoint
 TestPlayerMovingRightAndJumpHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsPlayerCheckpoint
+Player tại vị trí (3.61, -0.35) không chạm camera checkpoint
+Player tại vị trí (3.61, -0.13) không chạm camera checkpoint
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsPlayerCheckpoint
+Player tại vị trí (3.61, -0.35) không chạm camera checkpoint
+Player tại vị trí (3.61, -0.13) không chạm camera checkpoint
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsPlayerCheckpoint
+Player tại vị trí (3.61, -0.35) không chạm camera checkpoint
+(3.52, -0.34, 0.00), (3.52, -0.41)
+Player tại vị trí (3.61, -0.13) không chạm camera checkpoint
+(3.52, -0.34, 0.00), (3.52, -0.41)
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsPlayerCheckpoint
+TestPlayerAlwaysHitsPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsPlayerCheckpoint
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsPlayerCheckpoint
+TestPlayerAlwaysHitsPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerAlwaysHitsPlayerCheckpoint
+TestPlayerAlwaysHitsPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerAlwaysHitsPlayerCheckpoint
+Player tại vị trí (10.80, -1.46) không chạm camera checkpoint
+(10.93, -1.63, 0.00), (10.92, -1.28)
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftAndJumpHitFinishPoint
+TestPlayerMovingLeftAndJumpHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerAlwaysHitsPlayerCheckpoint
+Player tại vị trí (3.26, 5.58) không chạm Player checkpoint.
+Player tại vị trí (3.26, 5.80) không chạm Player checkpoint.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerAlwaysHitsPlayerCheckpoint
+Player tại vị trí (3.26, 5.58) không chạm Player checkpoint.
+Player tại vị trí (3.26, 5.80) không chạm Player checkpoint.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerAlwaysHitsPlayerCheckpoint
+TestPlayerAlwaysHitsPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerAlwaysHitsPlayerCheckpoint
+TestPlayerAlwaysHitsPlayerCheckpoint passed.
