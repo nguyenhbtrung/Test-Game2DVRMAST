@@ -4,6 +4,8 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
+using UnityEngine.UIElements;
+using static UnityEngine.UI.Dropdown;
 
 namespace HitboxBehaviorTests
 {
@@ -350,6 +352,106 @@ namespace HitboxBehaviorTests
 
             yield return null;
         }
+
+        [UnityTest]
+        public IEnumerator TestPlayerMovingLeftHitTrapReceiveDamage()
+        {
+            yield return TestPlayerHitTrapsWhenMove
+            (
+                testName: nameof(TestPlayerMovingLeftHitTrapReceiveDamage),
+                inputDataName: nameof(TestPlayerMovingLeftHitTrapReceiveDamage),
+                CheckAction: CheckReceiveDamage
+            );
+        }
+
+        [UnityTest]
+        public IEnumerator TestPlayerMovingRightHitTrapReceiveDamage()
+        {
+            yield return TestPlayerHitTrapsWhenMove
+            (
+                testName: nameof(TestPlayerMovingRightHitTrapReceiveDamage),
+                inputDataName: nameof(TestPlayerMovingRightHitTrapReceiveDamage),
+                CheckAction: CheckReceiveDamage
+            );
+        }
+
+        public IEnumerator CheckReceiveDamage(dichuyen2 playerMovement, Player playerScript, List<string> issues, int inititalLives)
+        {
+
+            yield return new WaitForFixedUpdate();
+            int livesAfterCollision = playerScript.lives;
+            int damage = inititalLives - livesAfterCollision;
+            int expectedDamage = 1;
+            if (damage != expectedDamage)
+            {
+                string issue = $"Player va chạm với bẫy tại {playerScript.transform.position} không nhận đúng thiệt hại. " +
+                    $"\nExpected: Damage = {expectedDamage}. " +
+                    $"\nActual: Damage = {damage}.";
+                issues.Add(issue);
+            }
+        }
+        public IEnumerator TestPlayerHitTrapsWhenMove(string testName, string inputDataName, CheckActionDelegate CheckAction)
+        {
+            string logFileName = TestSettings.TestLogFileName;
+            string message = testName;
+            TestLogger.Log(message, logFileName);
+
+            string file = $"{TestSettings.SceneName}-{inputDataName}-InputData";
+            LoadSimulatorInputData(file);
+            
+            List<string> issues = new();
+
+            foreach (var sequence in sequences)
+            {
+                SceneManager.LoadScene(TestSettings.SceneIndex);
+                yield return null;
+
+                GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+                dichuyen2 playerMovement = player.GetComponent<dichuyen2>();
+                Player playerScript = player.GetComponent<Player>();
+                GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+                HideMovingPlatforms();
+
+                CollisionDetector collisionDetector = player.AddComponent<CollisionDetector>();
+                int inititalLives = playerScript.lives;
+
+                player.transform.position = sequence.begin.position;
+                cam.transform.position = player.transform.position + Vector3.back * 10;
+                ProcessPlayerAction(playerMovement, sequence.begin);
+                if (sequence.actions != null)
+                    foreach (var actionData in sequence.actions)
+                    {
+                        yield return new WaitUntil(() =>
+                            Vector2.Distance(player.transform.position, actionData.position) < positionThreshold);
+                        ProcessPlayerAction(playerMovement, actionData);
+
+                    }
+                float startTime = Time.time;
+                yield return new WaitUntil(() =>
+                            collisionDetector.IsCollisionTrap ||
+                            Time.time - startTime >= 2f);
+                yield return CheckAction(playerMovement, playerScript, issues, inititalLives);
+
+            }
+
+            if (issues.Count > 0)
+            {
+                string errorMessage = string.Join("\n", issues);
+                TestLogger.Log(errorMessage, logFileName);
+                Assert.Fail(errorMessage);
+            }
+            else
+            {
+                string successMessage = $"{testName} passed.";
+                TestLogger.Log(successMessage, logFileName);
+                Assert.Pass(successMessage);
+            }
+
+            yield return null;
+        }
+
+        public delegate IEnumerator CheckActionDelegate(dichuyen2 playerMovement, Player playerScript, List<string> issues, int inititalLives);
+
     }
 }
 

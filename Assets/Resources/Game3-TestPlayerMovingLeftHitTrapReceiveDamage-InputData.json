@@ -1,0 +1,49 @@
+{
+    "actionSequences": [
+        {
+            "begin": {
+                "position": {
+                    "x": -1.187,
+                    "y": -0.338
+                },
+                "action": "left"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 1.997,
+                    "y": -0.338
+                },
+                "action": "left"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 3.036,
+                    "y": 3.656
+                },
+                "action": "left"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 0.085,
+                    "y": 4.299
+                },
+                "action": "left"
+            }
+        },
+        {
+            "begin": {
+                "position": {
+                    "x": 10.274,
+                    "y": 4.309
+                },
+                "action": "left"
+            }
+        }
+    ]
+}

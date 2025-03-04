@@ -3979,3 +3979,131 @@ TestPlayerCanJumpWhileHittingWallHitbox passed.
 Scene: Game4
 TestPlayerCanJumpWhileMovingIntoWall
 TestPlayerCanJumpWhileMovingIntoWall passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+Player không đứng được trên platform tại (0.72, 1.75) 
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+Player không đứng được trên platform tại (0.72, 1.72) 
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+Player không đứng được trên platform tại (0.72, 1.65) 
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+Player không đứng được trên platform tại (0.72, 1.60) 
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+Player không đứng được trên platform tại (0.72, 1.58) 
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerStandOnStaticPlatform
+TestPlayerStandOnStaticPlatform passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMovingLeftHitTrapReceiveDamage
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMovingLeftHitTrapReceiveDamage
+TestPlayerMovingLeftHitTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftHitTrapReceiveDamage
+TestPlayerMovingLeftHitTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftHitTrapReceiveDamage
+TestPlayerMovingLeftHitTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftHitTrapReceiveDamage
+TestPlayerMovingLeftHitTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftHitTrapReceiveDamage
+TestPlayerMovingLeftHitTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerMovingLeftHitTrapReceiveDamage
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerMovingLeftHitTrapReceiveDamage
+TestPlayerMovingLeftHitTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerMovingLeftHitTrapReceiveDamage
+TestPlayerMovingLeftHitTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerMovingLeftHitTrapReceiveDamage
+TestPlayerMovingLeftHitTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMovingRightHitTrapReceiveDamage
+TestPlayerMovingRightHitTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMovingRightHitTrapReceiveDamage
+Player va chạm với bẫy tại (-1.80, -0.18, 0.00) không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+Player va chạm với bẫy tại (1.44, -0.34, 0.00) không nhận đúng thiệt hại. 
+Expected: Damage = 1. 
+Actual: Damage = 0.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMovingRightHitTrapReceiveDamage
+TestPlayerMovingRightHitTrapReceiveDamage passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingRightHitTrapReceiveDamage
+TestPlayerMovingRightHitTrapReceiveDamage passed.

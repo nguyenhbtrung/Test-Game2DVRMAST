@@ -91,7 +91,7 @@ namespace HitboxBehaviorTests
                 cam.transform.position = player.transform.position + Vector3.back * 10;
                 ProcessPlayerAction(playerMovement, sequence.begin);
 
-                yield return new WaitForSeconds(0.7f);
+                yield return new WaitForSeconds(0.25f);
 
                 if (player.GetComponent<Rigidbody2D>().velocity.magnitude > 0.01)
                 {
