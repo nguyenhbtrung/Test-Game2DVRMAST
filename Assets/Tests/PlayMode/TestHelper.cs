@@ -57,14 +57,18 @@ public static class TestHelper
             { 
                 nameof(PlatformHitboxBehaviorTests.TestPlayerStandUnderVerticalMovingPlatform),
                 nameof(FinishPointBehaviorTests.TestPlayerMovingLeftHitFinishPoint),
-                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftAndJumpHitFinishPoint)
+                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftAndJumpHitFinishPoint),
+                nameof(CheckpointHitboxBehaviorTests.TestPlayerMovingLeftHitPlayerCheckpoint),
+                nameof(CheckpointHitboxBehaviorTests.TestPlayerMovingLeftAndJumpHitPlayerCheckpoint)
             } 
         },
         {
             "Game2", new List<string>
             {
                 nameof(FinishPointBehaviorTests.TestPlayerMovingRightHitFinishPoint),
-                nameof(FinishPointBehaviorTests.TestPlayerMovingRightAndJumpHitFinishPoint)
+                nameof(FinishPointBehaviorTests.TestPlayerMovingRightAndJumpHitFinishPoint),
+                nameof(CheckpointHitboxBehaviorTests.TestPlayerMovingLeftHitPlayerCheckpoint),
+                nameof(CheckpointHitboxBehaviorTests.TestPlayerMovingLeftAndJumpHitPlayerCheckpoint)
             }
         },
         {
@@ -72,14 +76,16 @@ public static class TestHelper
             {
                 nameof(FinishPointBehaviorTests.TestPlayerMovingLeftHitFinishPoint),
                 nameof(FinishPointBehaviorTests.TestPlayerMovingRightHitFinishPoint),
-                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftAndJumpHitFinishPoint)
+                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftAndJumpHitFinishPoint),
+                nameof(CheckpointHitboxBehaviorTests.TestPlayerMovingLeftHitPlayerCheckpoint)
             }
         },
         {
             "Game4", new List<string>
             {
                 nameof(FinishPointBehaviorTests.TestPlayerMovingLeftHitFinishPoint),
-                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftAndJumpHitFinishPoint)
+                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftAndJumpHitFinishPoint),
+                nameof(CheckpointHitboxBehaviorTests.TestPlayerMovingLeftHitPlayerCheckpoint)
             }
         },
     };

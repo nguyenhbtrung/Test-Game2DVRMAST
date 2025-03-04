@@ -4505,3 +4505,77 @@ TestPlayerAlwaysHitsPlayerCheckpoint passed.
 Scene: Game4
 TestPlayerAlwaysHitsPlayerCheckpoint
 TestPlayerAlwaysHitsPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMovingRightHitPlayerCheckpoint
+Player tại (3.11, -0.34) không chạm Player checkpoint.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMovingRightHitPlayerCheckpoint
+Player tại (3.11, -0.34) không chạm Player checkpoint.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMovingRightHitPlayerCheckpoint
+TestPlayerMovingRightHitPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingRightHitPlayerCheckpoint
+TestPlayerMovingRightHitPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerMovingRightHitPlayerCheckpoint
+Player tại (3.03, 5.58) không chạm Player checkpoint.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerMovingRightHitPlayerCheckpoint
+TestPlayerMovingRightHitPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerMovingRightHitPlayerCheckpoint
+TestPlayerMovingRightHitPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerMovingLeftAndJumpHitPlayerCheckpoint
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerMovingLeftAndJumpHitPlayerCheckpoint
+TestPlayerMovingLeftAndJumpHitPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerMovingLeftAndJumpHitPlayerCheckpoint
+TestPlayerMovingLeftAndJumpHitPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMovingRightAndJumpHitPlayerCheckpoint
+TestPlayerMovingRightAndJumpHitPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingRightAndJumpHitPlayerCheckpoint
+TestPlayerMovingRightAndJumpHitPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerMovingRightAndJumpHitPlayerCheckpoint
+TestPlayerMovingRightAndJumpHitPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerMovingRightAndJumpHitPlayerCheckpoint
+TestPlayerMovingRightAndJumpHitPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerMovingRightAndJumpHitPlayerCheckpoint
+TestPlayerMovingRightAndJumpHitPlayerCheckpoint passed.
