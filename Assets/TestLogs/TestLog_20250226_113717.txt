@@ -4322,3 +4322,111 @@ TestPlayerMovingLeftHitTrapDeadAnimation passed.
 Scene: Game4
 TestPlayerMovingRightHitTrapDeadAnimation
 TestPlayerMovingRightHitTrapDeadAnimation passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftHitFinishPoint
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftHitFinishPoint
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftHitFinishPoint
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftHitFinishPoint
+TestPlayerMovingLeftHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftHitFinishPoint
+TestPlayerMovingLeftHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerCollisionFinishPoint
+TestPlayerCollisionFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftHitFinishPoint
+TestPlayerMovingLeftHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMovingRightHitFinishPoint
+TestPlayerMovingRightHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerMovingRightHitFinishPoint
+TestPlayerMovingRightHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerMovingLeftAndJumpHitFinishPoint
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftAndJumpHitFinishPoint
+TestPlayerMovingLeftAndJumpHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftAndJumpHitFinishPoint
+TestPlayerMovingLeftAndJumpHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftAndJumpHitFinishPoint
+TestPlayerMovingLeftAndJumpHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftAndJumpHitFinishPoint
+TestPlayerMovingLeftAndJumpHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftAndJumpHitFinishPoint
+TestPlayerMovingLeftAndJumpHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+TestPlayerMovingLeftAndJumpHitFinishPoint
+TestPlayerMovingLeftAndJumpHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+TestPlayerMovingRightAndJumpHitFinishPoint
+TestPlayerMovingRightAndJumpHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerMovingRightAndJumpHitFinishPoint
+TestPlayerMovingRightAndJumpHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+TestPlayerMovingRightAndJumpHitFinishPoint
+TestPlayerMovingRightAndJumpHitFinishPoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+TestPlayerMovingRightAndJumpHitFinishPoint
+TestPlayerMovingRightAndJumpHitFinishPoint passed.

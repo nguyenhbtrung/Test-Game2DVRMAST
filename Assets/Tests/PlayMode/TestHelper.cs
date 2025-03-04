@@ -51,7 +51,36 @@ public static class TestHelper
 
     public static Dictionary<string, List<string>> TestsToSkipBySceneIndex = new Dictionary<string, List<string>>()
     {
-        { "Game1", new List<string> { nameof(PlatformHitboxBehaviorTests.TestPlayerStandUnderVerticalMovingPlatform) } },
+        { 
+            "Game1", new List<string> 
+            { 
+                nameof(PlatformHitboxBehaviorTests.TestPlayerStandUnderVerticalMovingPlatform),
+                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftHitFinishPoint),
+                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftAndJumpHitFinishPoint)
+            } 
+        },
+        {
+            "Game2", new List<string>
+            {
+                nameof(FinishPointBehaviorTests.TestPlayerMovingRightHitFinishPoint),
+                nameof(FinishPointBehaviorTests.TestPlayerMovingRightAndJumpHitFinishPoint)
+            }
+        },
+        {
+            "Game3", new List<string>
+            {
+                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftHitFinishPoint),
+                nameof(FinishPointBehaviorTests.TestPlayerMovingRightHitFinishPoint),
+                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftAndJumpHitFinishPoint)
+            }
+        },
+        {
+            "Game4", new List<string>
+            {
+                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftHitFinishPoint),
+                nameof(FinishPointBehaviorTests.TestPlayerMovingLeftAndJumpHitFinishPoint)
+            }
+        },
     };
 
     public static bool ShouldSkipTest(string testName)
