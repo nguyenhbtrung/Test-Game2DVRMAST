@@ -1,0 +1,36 @@
+{
+    "actionSequences": [
+        {
+            "begin": {
+                "position": {
+                    "x": -2.925,
+                    "y": 0.637
+                },
+                "action": "right"
+            },
+            "actions": [
+                {
+                    "position": {
+                        "x": 3.208,
+                        "y": -0.341
+                    },
+                    "action": "right"
+                },
+                {
+                    "position": {
+                        "x": -2.765,
+                        "y": 0.537
+                    },
+                    "action": "left"
+                },
+                {
+                    "position": {
+                        "x": -1.561,
+                        "y": -0.185
+                    },
+                    "action": "none"
+                }
+            ]
+        }
+    ]
+}

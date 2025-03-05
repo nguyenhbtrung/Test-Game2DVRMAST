@@ -124,6 +124,80 @@ namespace HitboxBehaviorTests
         }
 
         [UnityTest]
+        public IEnumerator Test_PlayerRespawnAtCurrentCheckpoint_AfterHitOldCheckpoint()
+        {
+            string logFileName = TestSettings.TestLogFileName;
+            string message = nameof(Test_PlayerRespawnAtCurrentCheckpoint_AfterHitOldCheckpoint);
+            TestLogger.Log(message, logFileName);
+
+            string file = $"{TestSettings.SceneName}-{nameof(Test_PlayerRespawnAtCurrentCheckpoint_AfterHitOldCheckpoint)}-InputData";
+            LoadSimulatorInputData(file);
+
+            List<string> issues = new();
+
+            foreach (var sequence in sequences)
+            {
+                SceneManager.LoadScene(TestSettings.SceneIndex);
+                yield return null;
+
+                HideMovingPlatforms();
+                HideCameraCheckpoints();
+
+                GameObject player = GameObject.Find(TestHelper.PLAYER_NAME);
+                dichuyen2 playerMovement = player.GetComponent<dichuyen2>();
+                CollisionDetector collisionDetector = player.AddComponent<CollisionDetector>();
+                GameObject cam = GameObject.FindObjectOfType<Camera>().gameObject;
+
+                player.transform.position = sequence.begin.position;
+                cam.transform.position = player.transform.position + Vector3.back * 10f;
+                ProcessPlayerAction(playerMovement, sequence.begin);
+                yield return new WaitForSeconds(0.5f);
+
+                player.transform.position = sequence.actions[0].position;
+                cam.transform.position = player.transform.position + Vector3.back * 10f;
+                ProcessPlayerAction(playerMovement, sequence.actions[0]);
+                yield return new WaitForSeconds(0.5f);
+
+                Vector3 currentChecpointPos = collisionDetector.CheckPointPos;
+
+                player.transform.position = sequence.actions[1].position;
+                cam.transform.position = player.transform.position + Vector3.back * 10f;
+                ProcessPlayerAction(playerMovement, sequence.actions[1]);
+                yield return new WaitForSeconds(0.5f);
+
+                playerMovement.StopMoveLeft();
+                playerMovement.StopMoveRight();
+
+                player.transform.position = sequence.actions[2].position;
+                cam.transform.position = player.transform.position + Vector3.back * 10f;
+                yield return new WaitForSeconds(1f);
+                cam.transform.position = currentChecpointPos + Vector3.back * 10;
+                yield return new WaitForSeconds(1f);
+
+                if (Vector2.Distance(player.transform.position, currentChecpointPos) > 0.3f)
+                {
+                    string issue = $"Player không hồi sinh tại playerCheckpoint hiện tại.";
+                    issues.Add(issue);
+                }
+            }
+
+            if (issues.Count > 0)
+            {
+                string errorMessage = string.Join("\n", issues);
+                TestLogger.Log(errorMessage, logFileName);
+                Assert.Fail(errorMessage);
+            }
+            else
+            {
+                string successMessage = $"{nameof(Test_PlayerRespawnAtCurrentCheckpoint_AfterHitOldCheckpoint)} passed.";
+                TestLogger.Log(successMessage, logFileName);
+                Assert.Pass(successMessage);
+            }
+
+            yield return null;
+        }
+
+        [UnityTest]
         public IEnumerator TestPlayerMovingLeftHitPlayerCheckpoint()
         {
             if (TestHelper.ShouldSkipTest(nameof(TestPlayerMovingLeftHitPlayerCheckpoint)))

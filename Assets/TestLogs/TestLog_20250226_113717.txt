@@ -4579,3 +4579,33 @@ TestPlayerMovingRightAndJumpHitPlayerCheckpoint passed.
 Scene: Game4
 TestPlayerMovingRightAndJumpHitPlayerCheckpoint
 TestPlayerMovingRightAndJumpHitPlayerCheckpoint passed.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+Test_PlayerRespawnAtCurrentCheckpoint_AfterHitOldCheckpoint
+Player không hồi sinh tại playerCheckpoint hiện tại.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+Test_PlayerRespawnAtCurrentCheckpoint_AfterHitOldCheckpoint
+Player không hồi sinh tại playerCheckpoint hiện tại.
+-------------------------------------------
+-------------------------------------------
+Scene: Game1
+Test_PlayerRespawnAtCurrentCheckpoint_AfterHitOldCheckpoint
+Player không hồi sinh tại playerCheckpoint hiện tại.
+-------------------------------------------
+-------------------------------------------
+Scene: Game2
+Test_PlayerRespawnAtCurrentCheckpoint_AfterHitOldCheckpoint
+Player không hồi sinh tại playerCheckpoint hiện tại.
+-------------------------------------------
+-------------------------------------------
+Scene: Game3
+Test_PlayerRespawnAtCurrentCheckpoint_AfterHitOldCheckpoint
+Player không hồi sinh tại playerCheckpoint hiện tại.
+-------------------------------------------
+-------------------------------------------
+Scene: Game4
+Test_PlayerRespawnAtCurrentCheckpoint_AfterHitOldCheckpoint
+Player không hồi sinh tại playerCheckpoint hiện tại.
